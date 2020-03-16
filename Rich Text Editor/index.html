@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/cube-fabric-10-03-2020.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Rich Text Editor</title>
+</head>
+<body ng-app="qbApp" ng-controller="qbCtrl">
+    <div class="container">
+        <qb-text-editor>
+            <qb-editor-tools></qb-editor-tools>
+            <qb-text-area qb-height="400px" qb-width="100%"></qb-text-area>
+        </qb-text-editor>
+    </div>
+
+    <button ng-click="showHtmlFun()">Show Html</button>
+    <qb-test-par></qb-test-par>
+    
+</body>
+</html>

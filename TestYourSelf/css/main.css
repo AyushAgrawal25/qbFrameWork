@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ padding:0; margin:0;}
+.mar-auto{ margin:auto;}
+.center{ text-align:center;}
+.justify{ text-align:justify;}
+.clr-fix{ clear:both;}
+.float-l{ float:left}
+.float-r{ float:right}
+.wbg{ background:#fff;} 
+.p-10px{ padding:10px;}
+
+.main-container{ width:100%;}
+
+

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="FRAMEWORK-basic.css">
+        <link rel="stylesheet" href="FRAMEWORK-styling.css">
+        <link rel="stylesheet" href="FRAMEWORK-font-styling.css">
+        <link rel="stylesheet" href="profile(basic).css">
+        <link rel="stylesheet" href="tab(basic).css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.17/angular.js" data-server="1.3.17"></script>
+        <script src="../../../public/js/cube_fabric.js"></script>   	
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="../../../public/css/widgets.css">
+        <title>
+           my deal 
+        </title>
+        <style>
+            .input_blank
+            {
+                border:none;
+                border-style:none;
+                width:100%;
+                padding-bottom: 0;
+                padding-top: 0;
+                box-sizing:border-box;
+            }
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <div class="box-container muli ">
+            <!---heading-->
+            <div class="box-xxxl font-size_gtxxxxl_3 bold_light box_padding_r_l_xl box_margin_r_l_xl box_padding_t_b_xl border_bottom_gray_sh">
+                Comments
+            </div>
+            <!--hotel name and rating-->
+            <div class="box-xxxl box_padding_xxl box_padding_t_b_xxxl">
+                <div class="box_70-30 position_l">
+                    <div class="box-xxxl font-size_gtxxxl_2 bold_light">
+                        COURTYARD MARRIOT
+                    </div>
+                </div>
+                <div class="box_30-70 position_l">
+                    <div class="box-xxxl box_padding_xxl">
+                        <!--star-1-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_green"></i>
+                        </div>
+                        <!--star-2-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_yellow"></i>
+                        </div>
+                        <!--star-3-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_blue"></i>
+                        </div>
+                        <!--star-4-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_violet"></i>
+                        </div>
+                        <!--star-5-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_brightred"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--comments-->
+            <div class="box-xxxl">
+                <!--comment-->
+                <div class="box-xxxl box_padding_r_l_xxl box_padding_t_b_l">
+                    <!--profile pic-->
+                    <div class="box_20-80 position_l">
+                        <div class="box-xxxl circle box_padding_xv1">
+                            <img src="SudhirSir.jpg" class="circle" width="100%">
+                        </div>
+                    </div>
+                    <!--comment and name-->
+                    <div class="box-xl position_l">
+                        <div class="box-xxxl">
+                            <!--name-->
+                            <div class="box-xxxl font-size_gtxxxl_1 bold_light box_padding_t_b_xxl">
+                                Sudhir Naidu
+                            </div>
+                            <!--comment-->
+                            <div class="box-xxxl font-size_gtxxxl_1 box_padding_t_b_l">
+                                Nice Hotel
+                            </div>
+                            <!--time-->
+                            <div class="box-xxxl font-size_ltxxxl_3 font-color_gray box_padding_t_b_l">
+                                13h
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_30-70">
+                        <!--rate the hotel-->
+                        <div class="box-xxxl position_r">
+                            <div class="box-xxxl">
+                        <!--star-1-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_green"></i>
+                        </div>
+                        <!--star-2-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_yellow"></i>
+                        </div>
+                        <!--star-3-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_blue"></i>
+                        </div>
+                        <!--star-4-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_violet"></i>
+                        </div>
+                        <!--star-5-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_brightred"></i>
+                        </div>
+                    </div>
+                            </div>
+                    </div>
+                </div>
+                <!--comment-->
+                <div class="box-xxxl box_padding_r_l_xxl box_padding_t_b_l">
+                    <!--profile pic-->
+                    <div class="box_20-80 position_l">
+                        <div class="box-xxxl circle box_padding_xv1">
+                            <img src="aman.jpg" class="circle" width="100%">
+                        </div>
+                    </div>
+                    <!--comment and name-->
+                    <div class="box-xl position_l">
+                        <div class="box-xxxl">
+                            <!--name-->
+                            <div class="box-xxxl font-size_gtxxxl_1 bold_light box_padding_t_b_xxl">
+                                Aman Singh
+                            </div>
+                            <!--comment-->
+                            <div class="box-xxxl font-size_gtxxxl_1 box_padding_t_b_l">
+                                This hotel is really good.. higly reccomndable
+                            </div>
+                            <!--time-->
+                            <div class="box-xxxl font-size_ltxxxl_3 font-color_gray box_padding_t_b_l">
+                                13h
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_30-70">
+                        <!--rate the hotel-->
+                        <div class="box-xxxl position_r">
+                            <div class="box-xxxl">
+                        <!--star-1-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_green"></i>
+                        </div>
+                        <!--star-2-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_yellow"></i>
+                        </div>
+                        <!--star-3-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_blue"></i>
+                        </div>
+                        <!--star-4-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_violet"></i>
+                        </div>
+                        <!--star-5-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_brightred"></i>
+                        </div>
+                    </div>
+                            </div>
+                    </div>
+                </div>
+                <!--comment-->
+                <div class="box-xxxl box_padding_r_l_xxl box_padding_t_b_l">
+                    <!--profile pic-->
+                    <div class="box_20-80 position_l">
+                        <div class="box-xxxl circle box_padding_xv1">
+                            <img src="ayush.jpg" class="circle" width="100%">
+                        </div>
+                    </div>
+                    <!--comment and name-->
+                    <div class="box-xl position_l">
+                        <div class="box-xxxl">
+                            <!--name-->
+                            <div class="box-xxxl font-size_gtxxxl_1 bold_light box_padding_t_b_xxl">
+                                Ayush Agarwal
+                            </div>
+                            <!--comment-->
+                            <div class="box-xxxl font-size_gtxxxl_1 box_padding_t_b_l">
+                                The USP is there customer sevice
+                            </div>
+                            <!--time-->
+                            <div class="box-xxxl font-size_ltxxxl_3 font-color_gray box_padding_t_b_l">
+                                13h
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_30-70">
+                        <!--rate the hotel-->
+                        <div class="box-xxxl position_r">
+                            <div class="box-xxxl">
+                        <!--star-1-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_green"></i>
+                        </div>
+                        <!--star-2-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_yellow"></i>
+                        </div>
+                        <!--star-3-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_blue"></i>
+                        </div>
+                        <!--star-4-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_violet"></i>
+                        </div>
+                        <!--star-5-->
+                        <div class="box_5 position_l">
+                            <i class="far fa-star font-color_brightred"></i>
+                        </div>
+                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!--the comment section-->
+            <qb-bar qb-bar-type="menu" qb-bar-id="comment_section" qb-open-class="display_block" qb-close-class="display_none">
+                <div class="hundredpercent fixed_fb">
+                    <div class="box-xxxl box_padding_t_b_xxl">
+                        <div class="box_90-10 position_l">
+                            <div class="box-xxxl">
+                                <input type="text" class="input_blank font-size_btwxvandxxxxl box_padding_r_l_xl" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                        <div class="box_10-90">
+                            <div class="box-xxxl position_l talign_c font-size_btwxvandxxxxl">
+                                <qb-icon qb-icon-type="search" qb-icon-id="comment_section" qb-target-id="Rating">
+                                    <i class="fas fa-arrow-right"></i>
+                                </qb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </qb-bar>
+            <!--rating-->
+            <qb-bar qb-bar-type="search" qb-bar-id="Rating" qb-open-class="display_block" qb-close-class="display_none">
+                <div class="hundredpercent fixed_fb">
+                    <div class="box-xxxl font-size_btwxvandxxxxl box_padding_t_b_xxl">
+                        <!--star-1-->
+                        <div class="box_5 position_l talign_c">
+                            <i class="far fa-star font-color_green"></i>
+                        </div>
+                        <!--star-2-->
+                        <div class="box_5 position_l talign_c">
+                            <i class="far fa-star font-color_yellow"></i>
+                        </div>
+                        <!--star-3-->
+                        <div class="box_5 position_l talign_c">
+                            <i class="far fa-star font-color_blue"></i>
+                        </div>
+                        <!--star-4-->
+                        <div class="box_5 position_l talign_c">
+                            <i class="far fa-star font-color_violet"></i>
+                        </div>
+                        <!--star-5-->
+                        <div class="box_5 position_l talign_c">
+                            <i class="far fa-star font-color_brightred"></i>
+                        </div>
+                    </div>
+                </div>
+            </qb-bar>
+        </div>
+    </body>
+</html>

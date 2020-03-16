@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qb-switch</title>
+    <script src="js/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/cube-fabric.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!--
+    <link rel="stylesheet" href="qbSwitchHtmlCss/FRAMEWORK-basic.css">
+    <link rel="stylesheet" href="qbSwitchHtmlCss/FRAMEWORK-font-styling.css">
+    <link rel="stylesheet" href="qbSwitchHtmlCss/FRAMEWORK-styling.css">
+    -->
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div ng-app="qbApp" ng-controller="qbCtrl">
+        <qb-switch qb-toggle-switch-color="#9c9b9b" qb-model="qbSwitchValue"></qb-switch>
+
+        
+        <!--turn on or off-->
+        <div class="qbSwitchContainer">
+            <div class="box_20-80 postion_l vertical_alignment_center" style="display: inline-block;">
+                <div class="webkit_fill">
+                    <!--toggle switch-->
+                    <div class="toggle_switch box-xxxl round-corners_max box_padding_xv3" style="background-color:#9c9b9b">
+                        <div class="box-xxxl webkit_fill position_relative" ng-click="qbClickFun()">
+                            <input ng-model="qbSwitchValue" type="checkbox" class="custom_test_cb opacity_transperent position_absolute">
+                            <div class="toggle_circle  circle background-color_black position_absolute">
+                                
+                            </div>
+                            <div class="toggle_circle  circle background-color_black opacity_transperent">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>

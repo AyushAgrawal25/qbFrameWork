@@ -1,0 +1,30 @@
+.style-qb-content
+{
+    padding:2%; 
+    background-color:#030526;
+    font-size:1.5vw;
+    font-family:Roboto;
+    color:#F2C9E0; 
+    text-align:center;
+}
+.style-content-menu-in-sub-menu
+{
+    padding:1.5%;
+    background-color:#030526;
+    font-size:1.2vw;
+    font-family:Roboto Condensed;
+    color:#F2C9E0;
+}
+.qb-content:hover
+{
+    background-color:black;
+}
+.qb-top-menu:hover > .qb-top-sub-menus
+{
+    display:block;
+}
+.qb-menu-in-submenu:hover > .qb-sub-sub-menu
+{
+    display:block;
+}
+

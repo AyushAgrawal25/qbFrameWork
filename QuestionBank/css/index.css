@@ -1,0 +1,17 @@
+.cards {
+  padding: 5%;
+}
+
+.cards .card {
+  width: 100%;
+  padding: 5%;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid #c8c8c8;
+}
+
+.cards .active {
+  border: 5px solid black;
+}
+/*# sourceMappingURL=index.css.map */

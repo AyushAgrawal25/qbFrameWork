@@ -1,0 +1,749 @@
+        body
+        {
+            padding:0;
+            margin:0;
+        }
+        
+          
+          
+        /*row testing css*/
+        .base {
+            height: auto;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color:red;
+        }
+        .child {
+            height: 99%;
+            width: 33.33%;
+            padding: 0;
+            margin: 0;
+            font-size: 50px;
+            background-color:blue;
+        }
+        .position
+        {
+            float:left;
+        }
+        /*Tabs*/
+        /*.qb-tab{}
+        
+        .qb-tabs{}
+        
+        .qb-tab:hover {
+            background-color: #ddd;
+        }
+        
+        .qb-tab-headings{
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+        
+        .qb-tab-heading-active {
+            background-color: #ddd;
+        }
+        
+        .qb-tab-heading{
+            width:auto;
+            padding:10px;
+            float:left;
+        }
+        
+        .qb-tab-contents{}
+         
+        .qb-tab-content{
+            background-color: inherit;
+            float: left;
+            width:100%;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            display:block;
+            padding: 6px;
+            border:1px solid black;
+            border-top: none;
+        }*/
+        
+        /*tabs css made by aman
+        .qb-tab-headings{
+            height:auto;
+            width:100%;
+            overflow:hidden;
+        }
+        
+        .qb-tab{}
+        
+        .qb-tabs{
+            height:auto;
+            width:auto;
+            overflow:hidden;
+        }
+        
+        .qb-tab-content{
+            height:auto;
+            width:auto;
+        }
+         .qb-tab-contents{
+            height:auto;
+            width:auto;
+            display:block;
+        }
+        .qb-tab:hover {
+            background-color: #ddd;
+        }
+
+        .qb-tab-heading-active {
+            background-color:white;
+        }
+        
+        .qb-tab-heading{
+            height:auto;
+            width:auto;
+            float:left;
+        }
+        
+         .qb-tab-heading:hover
+        {
+            background-color:white;
+            color:black;
+        }*/
+        /*template-1-testing*/
+        .qb-tab{}
+
+        .qb-tabs
+        {
+            height:auto;
+            width:auto;
+            overflow:hidden;
+        }
+                         
+        .qb-tab-headings
+        {  
+            height:auto;
+            width:100%;
+            overflow:hidden;
+        }
+         
+        
+        .qb-tab-heading
+        {
+            height:auto;
+            width:auto;
+            float:left;
+        }
+        
+
+        .qb-tab-contents
+        {
+            height:auto;
+            width:auto;
+            display:block;
+        }
+         
+        
+        .qb-tab-content
+        {
+            height:auto;
+            width:auto;
+        }   
+        .qb-tab-content-open
+        {
+            display:block;
+        }
+        .qb-tab-content-close
+        {
+            display:none;
+        }
+        .qb-tab-heading-inactive
+        {
+            border:none;                
+        }
+        .qb-tab-heading-active
+        {
+            border-bottom:5px solid red;
+        }
+        
+        /*Menus*/
+        .qb-menus
+        {
+           height:auto;
+           width:auto;
+        }
+        .qb-menus-icon
+        {
+        }
+        .qb-menus-icon-open
+        {
+            display:block;
+        }
+        .qb-menus-icon-close
+        {
+            display:none;
+        }
+        .qb-menus-heading
+        {
+            width:auto;
+        }
+        .qb-menu
+        {
+            display:block;
+        }
+        .qb-menu-heading
+        {
+            height:auto;
+            width:auto;
+        }
+        .qb-menus-open
+        {
+            display:block;
+        }
+        .qb-menus-close
+        {
+            display:none;
+        }
+        .qb-sub-sub-menus
+        {
+            display:none;
+        }
+        
+        
+        /*Top Menus*/
+        .qb-top-menus
+        {
+           height:auto;
+           width:auto;
+        }
+        .qb-menu-in-top-menus
+        {
+            width:20%;
+            float:left;
+        }
+        .qb-top-sub-menus
+        {
+            height:auto;
+            width:inherit;
+            display:none;
+        }
+        .qb-sub-sub-menus-top-type
+        {
+            height:auto;
+            width:100%;   
+        }
+        .qb-menu-in-top-menus:hover > .qb-top-sub-menus
+        {
+            display:block;
+        }
+        .qb-menu-in-sub-menus:hover > .qb-sub-sub-menus-top-type
+        {
+            display:block;
+        }
+        @media screen and (min-width:600px)
+        {
+            .qb-sub-sub-menus-top-type
+            {
+                 position:absolute;
+                left:100%;
+                height:auto;
+                width:100%;
+                top:50%;
+            }
+            .qb-top-sub-menus
+            {
+                height:auto;
+                width:inherit;
+                position:absolute;
+                display:none;    
+            }
+        }
+        
+        /*Icon Menus*/
+        .qb-icon-menus
+        {
+            height:auto;
+            width:40%;
+            position:absolute;
+            right:0;
+            overflow:hidden;
+        }
+        .qb-menu-in-icon-menus
+        {
+            height:auto;
+            width:auto;
+            overflow:hidden;
+        }
+        .qb-icon-sub-menus
+        {
+            height:auto;
+            width:95%;
+            float:right;
+            display:none;
+            overflow:hidden;
+        }
+        .qb-menu-in-sub-menus
+        {
+            height:auto;
+            width:auto;
+            overflow:hidden;
+        }
+        .qb-sub-sub-menus-icon-type
+        {
+            height:auto;
+            float:right;
+            width:95%;
+            overflow:hidden;
+        }
+        .qb-menu-in-icon-menus:hover > .qb-icon-sub-menus
+        {
+            display:block;
+        }
+        .qb-menu-in-sub-menus:hover > .qb-sub-sub-menus
+        {
+            display:block;
+        }
+        
+        /*Left Menus*/
+        .qb-left-menus
+        {
+            height:auto;
+            width:80%;
+            
+            font-family:monospace;
+            overflow:hidden;
+        }
+        .qb-menu-in-left-menus
+        {
+            height:auto;
+            width:auto;
+            overflow:hidden;
+            background-color:#030526;
+            color:#BF7AB4;
+        }
+        .qb-left-sub-menus
+        {
+            height:auto;
+            width:95%;
+            float:right;
+            display:none;
+            overflow:hidden;
+            background-color:#030526;
+            color:#BF7AB4;
+        }
+        .qb-menu-in-sub-menus
+        {
+            height:auto;
+            width:auto;
+            overflow:hidden;
+            background-color:#030526;
+            color:#BF7AB4;
+        }
+        .qb-sub-sub-menus-left-type
+        {
+            height:auto;
+            float:right;
+            width:95%;
+            overflow:hidden;
+            background-color:#030526;
+            color:#BF7AB4;
+        }
+        .qb-menu-in-left-menus:hover > .qb-left-sub-menus
+        {
+            display:block;
+        }
+        .qb-menu-in-sub-menus:hover > .qb-sub-sub-menus
+        {
+            display:block;
+        }
+        
+        /*Right Menus*/
+        .qb-right-menus
+        {
+           height:auto;
+           width:auto;
+        }
+        .qb-sub-sub-menus-right-type
+        {
+            height:auto;
+            width:100%;
+        }
+        .qb-menu-in-left-menus
+        {
+            width:100%;
+            float:left;
+        }
+        .qb-right-sub-menus
+        {
+            height:auto;
+            width:inherit;
+            display:none;
+        }
+        .qb-sub-sub-menus-right-type
+        {
+        }
+        .qb-menu-in-right-menus:hover > .qb-right-sub-menus
+        {
+            display:block;
+        }
+        .qb-menu-in-sub-menus:hover > .qb-sub-sub-menus-right-type
+        {
+            display:block;
+        }
+        
+        /*Sub Menus*/
+        .qb-sub-menus
+        {
+            
+        }
+        .qb-menu-in-sub-menus
+        {
+            width:100%;
+            float:none;
+            display:block;
+        }
+        
+        /*Form*/
+        .qb-input-label{}
+        
+        .qb-input-container{}
+        
+        .qb-input-message{}
+        
+        .qb-input{}
+        
+        /*Container*/
+        .qb-header {
+          background-color: #9933cc;
+          width:100%;
+          color: #ffffff;
+          padding: 15px;
+        }
+        
+        .qb-footer {}
+        
+        /*accordions*/
+        .qb-accordions
+        {
+            height:auto;
+            width:auto;
+            overflow:hidden;
+        }
+        .qb-accordion
+        {
+            height:auto;
+            width:auto;
+        }
+        .qb-accordion-heading
+        {
+            height:auto;
+            width:auto;
+        }
+        .qb-accordion-content
+        {
+            height:auto;
+            width:auto;
+        }
+        .qb-accordion-content-open
+        {
+            display:block;
+        }
+        .qb-accordion-content-close
+        {
+            display:none;
+        }
+        /*auto complete*/
+        .qb-auto-complete {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .qb-auto-complete-input {
+          border: 1px solid transparent;
+          background-color: #f1f1f1;
+          padding: 10px;
+          font-size: 16px;
+        }
+        
+        .qb-auto-complete-input[type=text] {
+          background-color: #f1f1f1;
+          width: 100%;
+        }
+        
+        .qb-auto-complete-list {
+          position: absolute;
+          border: 1px solid #d4d4d4;
+          border-bottom: none;
+          border-top: none;
+          z-index: 99;
+          /*position the autocomplete items to be the same width as the container:*/
+          top: 100%;
+          left: 0;
+          right: 0;
+        }
+        
+        .qb-auto-complete-suggestion{
+          padding: 10px;
+          display:none;
+          cursor: pointer;
+          background-color: #fff; 
+          border-bottom: 1px solid #d4d4d4; 
+        }
+        
+        /*when hovering an item:*/
+        .qb-auto-complete-suggestion:hover {
+          background-color: #e9e9e9; 
+        }
+        
+        /*when navigating through the items using the arrow keys:*/
+        .autocomplete-active {
+          background-color: DodgerBlue !important; 
+          color: #ffffff; 
+        }
+
+        .qb-autocomplete-suggestion-active{
+            background-color: #ddd;                
+        }
+        
+        /*qb-layout*/
+        .qb-table
+        {
+            display:table;
+            table-layout:fixed;
+            width:100%;
+        }
+        .qb-row
+        {
+            display:table-row;
+        }
+        .qb-cell
+        {
+            display:table-cell;
+            border:2px solid black;
+        }
+        
+        /*qb-alert*/
+        .qb-alert-backcover
+        {   
+        	position:fixed;
+        	height:100%;
+        	width:100%;
+        	top:0;
+        	left:0;
+        	display: flex;
+        	justify-content: center;
+        	align-items:center;
+        	background-color:rgba(64,67,70,0.5);
+        	height:100%;
+        }
+        .qb-alert-backcover-active
+        {
+            display:block;
+        }
+        .qb-alert-backcover-inactive
+        {
+            display:none;
+            opacity: 0;
+        }
+        .qb-alert
+        {
+            position:fixed;
+        	flex-basis: 70%;
+        	height: 25%;
+        	padding: 5%;
+        	border-radius: 10px;
+        	text-align: center;
+        	background-color: white;
+        	align-items: center;
+        	opacity:1;
+        }
+        .qb-alert-active
+        {
+            
+        }
+        .qb-alert-inactive
+        {
+            
+        }
+        
+        /*modal*/
+        .qb-modal
+        {
+            overflow:hidden;   
+        }
+        .qb-modal-open-button
+        {
+            
+        }
+        .qb-modal-close-button
+        {
+            float:right;
+        }
+        .qb-modal-content
+        {
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+        .qb-modal-content-open
+        {
+            display:block;
+        }
+        .qb-modal-content-close
+        {
+            display:none;
+        }
+        
+        /*qb Bar*/
+        
+        /*qb Icon*/
+        .qb-icon{
+            overflow:hidden;
+        }
+        
+        /*Avatar */
+        .qb-avatar{
+            
+        }
+        .qb-avatar-image{
+            border-radius:50%;
+        }
+        
+        /*Custom Check Box*/
+        .qb-check-box-input{
+          height:6vw;
+          width:6vw;
+          margin:0;
+          padding:0;
+          opacity:0;
+          z-index:1000000;
+        }
+
+        .qb-check-box{
+          height:auto;
+          width:auto;
+          display:flex;
+          position:relative;
+        }
+
+        
+
+        .qb-check{
+          height:6vw;
+          width:6vw;
+          overflow:hidden;
+          position:absolute;
+          z-index:-1000;
+        }
+        
+        
+
+        .qb-check-child{
+          height:-webkit-fill-available;
+          width:-webkit-fill-available;
+          display:flex;
+          border:1.5px solid black;
+          border-radius:5px;
+        }
+
+        
+
+        .qb-check::after{
+          content:" ";
+          height:25%;
+          width:50%;
+          position:absolute;
+          top:25.5%;
+          left:25%;
+          border-left:1.5px solid black;
+          border-bottom:1.5px solid black;
+          transform:rotate(-45deg);
+          display:none;
+        }
+
+        .qb-check-box-content{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+
+        
+
+        .qb-check-box input:checked ~ .qb-check::after{
+          display:block;
+        }
+        
+        /*Radio Button*/
+        .qb-radio-button-input{
+          height:6vw;
+          width:6vw;
+          margin:0;
+          padding:0;
+          opacity:0;
+          z-index:1000000;
+        }
+
+        .qb-radio-button{
+          height:auto;
+          width:auto;
+          display:flex;
+          position:relative;
+        }
+        
+
+        .qb-radio-circle{
+          height:6vw;
+          width:6vw;
+          overflow:hidden;
+          position:absolute;
+          z-index:-1000;
+        }
+        
+        
+        .qb-radio-circle-child{
+          height:-webkit-fill-available;
+          width:-webkit-fill-available;
+          display:flex;
+          border:1.5px solid black;
+          border-radius:50%;
+        }
+        
+
+        .qb-radio-circle::after{
+          content:" ";
+          height:50%;
+          width:50%;
+          position:absolute;
+          top:25.5%;
+          left:25%;
+          border-radius:50%;
+          background-color:black;
+          display:none;
+          z-index:-10000;
+        }
+
+        .qb-radio-button-content{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+
+        
+
+        .qb-radio-button input:checked ~ .qb-radio-circle::after{
+          display:block;
+        }

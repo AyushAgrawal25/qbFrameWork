@@ -1,0 +1,17 @@
+.qb-table
+{
+	display:table;
+    color:white;
+    width:100%;
+}
+.qb-row
+{
+	display:table-row;
+    margin:20px;
+}
+.qb-cell
+{
+	display:table-cell;
+    background-color:black;
+    padding:20px;
+}

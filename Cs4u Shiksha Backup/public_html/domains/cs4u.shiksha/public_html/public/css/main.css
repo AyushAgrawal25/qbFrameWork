@@ -1,0 +1,140 @@
+body
+{
+    padding:0;
+    margin:0;
+}
+.s-box
+{
+    height:auto;
+    width:auto;
+}
+.s-box.s-xxxl
+{
+    width:100%;
+    float:left;
+}
+.s-box.s-xxl
+{
+    width:50%;
+    float:left;
+}
+.s-box.s-size3
+{
+    width:33.33%;
+    float:left;
+}
+.s-box.s-xl
+{
+    width:25%;
+    float:left;
+}
+
+.s-box.s-l
+{
+    width:12.5%;
+    float:left;
+}
+
+.s-box.s-xxxl_p
+{
+    width:98%;
+    padding:1%;
+    float:left;
+}
+.s-box.s-xxl_p
+{
+    width:48%;
+    padding:1%;
+    float:left;
+}
+.s-box.s-size3_p
+{
+    width:31.4%;
+    padding:0.8%;
+    float:left;
+}
+.s-box.s-xl_p
+{
+    width:23%;
+    padding:1%;
+    float:left;
+}
+.s-box.s-l_p
+{
+    width:10.5%;
+    padding:1%;
+    float:left;
+}
+.s-box.s-xxxl_pm
+{
+    width:96%;
+    padding:1%;
+    margin:1%;
+    float:left;
+}
+.s-box.s-xxl_pm
+{
+    width:46%;
+    padding:1%;
+   margin:1%;
+    float:left;
+}
+.s-box.s-size3_pm
+{
+    width:32.33%;
+    padding:0.5%;
+    float:left;
+}
+.s-box.s-xl_pm
+{
+    width:21%;
+    padding:1%;
+   margin:1%;
+    float:left;
+}
+.s-box.s-l_pm
+{
+    width:8.5%;
+    padding:1%;
+    margin:1%;
+    float:left;
+}
+.row
+{
+   height:auto;
+   width:auto;
+   overflow:hidden;
+}
+.row_type2
+{
+    height:auto;
+    width:100%;
+}
+.shadow_l
+{
+    box-shadow:3.5px 0 3px rgb(231,231,231);
+}
+.shadow_r
+{
+    box-shadow:-3.5px 0 3px rgb(231,231,231);
+}
+.shadow_t
+{
+    box-shadow:0 -3.5px 3px rgb(231,231,231);
+}
+.shadow_b
+{
+    box-shadow:0 3.5px 3px rgb(231,231,231);
+}
+.shadow_a
+{
+    box-shadow:0 0 6px rgb(231,231,231),0 0 3px rgb(231,231,231);
+}
+.floatl
+{
+    float:left;
+}
+.floatr
+{
+    float:right;
+}

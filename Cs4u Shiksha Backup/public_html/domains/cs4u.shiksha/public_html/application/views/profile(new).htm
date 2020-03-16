@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="FRAMEWORK-basic.css">
+        <link rel="stylesheet" href="FRAMEWORK-styling.css">
+        <link rel="stylesheet" href="FRAMEWORK-font-styling.css">
+        <link rel="stylesheet" href="profile(basic).css">
+        <link rel="stylesheet" href="tab(basic).css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.17/angular.js" data-server="1.3.17"></script>
+        <script src="../../../public/js/cube_fabric.js"></script>   	
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="../../../public/css/widgets.css">
+    	<link rel="stylesheet" href="top-menu.css">
+        <title>
+           my deal 
+        </title>
+        <style>
+            .tab-heading:hover
+            {
+                border-bottom:3px solid #ED2227;
+            }
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <div class="box-container muli">
+            <!--top-menu-->
+                <qb-show-menus qb-menus-id="myLeftMenu" responsive="true" >
+                    <qb-menus-heading>
+                        Top Menu Testing
+                    </qb-menus-heading>
+                    <qb-menus-icon icon-type="open">
+                        <i class="fa fa-bars"></i>
+                    </qb-menus-icon>
+                    <qb-menus-icon icon-type="close">
+                        <i class="fa fa-close"></i>
+                    </qb-menus-icon>
+                </qb-show-menus>
+                
+                <qb-menus classes="hardik" qb-menu-type="top" qb-menus-id="myLeftMenu">
+                    <qb-menu qb-link="#">
+                        <div class="box_30-70 positon_l">
+                            <div class="menu-icon">
+                                <i class="fas fa-arrow-left"></i>
+                            </div>
+                        </div>
+                    </qb-menu>
+                    <qb-menu qb-link="#">
+                        <div class="box_30-70 position_r">
+                            <div class="menu-icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                        </div>
+                    </qb-menu>
+                    <qb-menu qb-link="#">
+                        <div class="box_30-70 position_r">
+                            <div class="menu-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <qb-menus qb-menu-type="sub">
+                            <qb-menu qb-link="#">
+                                Left Sub Menu 1
+                            </qb-menu>
+                            <qb-menu qb-link="#">
+                                Left Sub Menu 2
+                                <qb-menus qb-menu-type="sub">
+                                    <qb-menu qb-link="#">
+                                        Left Sub Sub Menu 1
+                                    </qb-menu>
+                                    <qb-menu>
+                                        Left Sub Sub Menu 2
+                                        <qb-menus qb-menu-type="sub">
+                                            <qb-menu qb-link="#">
+                                                Left Sub Sub Sub Menu 1
+                                            </qb-menu>
+                                            <qb-menu qb-link="#">
+                                                Left Sub Sub Sub Menu 2
+                                            </qb-menu>
+                                            <qb-menu qb-link="#">
+                                                Left Sub Sub Sub Menu 3
+                                            </qb-menu>
+                                        </qb-menus>
+                                    </qb-menu>
+                                    <qb-menu qb-link="#">
+                                        Left Sub Sub Menu 3
+                                    </qb-menu>
+                                </qb-menus>
+                            </qb-menu>
+                            <qb-menu qb-link="#">
+                                Left Sub Menu 3
+                            </qb-menu>
+                        </qb-menus>
+                    </qb-menu>
+                </qb-menus>
+            <!--profile-container-->
+            <div class="box-xxxl box_padding_r_l_xv3 box_padding_t_b_xl">
+                <!--profile-picture-->
+                <div class="box_40-60 position_l">
+                    <div class="profile_pic box_padding_xxxl">
+                        <img src="courtyardmarriott.jpg" class="round-corners_10" width="100%">
+                    </div>
+                </div>
+                <!--details-->
+                <div class="box_60-40 position_l">
+                    <!--name-->
+                    <div class="box-xxxl box_padding_xl box_padding_t_b_xxxxl font-size_gtxxxxl_1 bold_light">
+                        Courtyard marriot
+                    </div>
+                    <!--type-->
+                    <div class="box-xxxl box_padding_xl box_padding_t_b_xxxxl font-size_gtxxxxl_2 font-color_gray">
+                        Hotel
+                    </div>
+                    <!--rating div-->
+                    <div class="box-xxxl box_padding_xl box_padding_t_b_xxxxl font-size_gtxxxxl_2">
+                        <!--star-1-->
+                        <i class="fas fa-star font-color_green"></i>
+                        <!--star-2-->
+                        <i class="fas fa-star font-color_yellow_s1"></i>
+                        <!--star-3-->
+                        <i class="fas fa-star font-color_blue"></i>
+                        <!--star-4-->
+                        <i class="fas fa-star font-color_violet"></i>
+                        <!--star-5-->
+                        <i class="fas fa-star font-color_brightred"></i>
+                    </div>
+                </div>
+            </div>
+            <!--tab-container-->
+            <div class="box-xxxl">
+                <!--tabs-container-->
+                <div class="box-container box_padding_r_l_xxxxl box_padding_t_b_xv">
+                    <!--tab heading container-->
+                    <div class="box-xxxl">
+                        <!--single heading-->
+                        <div class="box-l position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_google_red">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                        </div>
+                        <!--single heading-->
+                        <div class="box-l position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_yellow_s1">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                        </div>
+                        <!--single heading-->
+                        <div class="box-l position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_facebook_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                        </div>
+                        <!--single heading-->
+                        <div class="box-l position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_brown">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--tab content container-->
+                    <div class="box-xxxl">
+                        <!--single tab content-->
+                        <div class="box-xxxl box_padding_l  muli">
+                            <div class="box-xxxl box_padding_t_b_xl talign_c font-size_gtxv_2 bold_light">
+                                Regular
+                            </div>
+                            <div class="box-xxxl">
+                                <!--discount-->
+                                <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c arvo">
+                                    <strong>Flat 10% off</strong>
+                                </div>
+                                <!--button-->
+                                <div class="box-xxxl box_padding_xl box_padding_t_b_l box_margin_t_b_xxl font-size_gtxxxxl_2 font-color_white background-color_mdealred talign_c background-color_mdealred round-corners_8">
+                                    PAY AND GET CASHBACK                                    
+                                </div>
+                                <!--description-->
+                                <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                    Flat coupon
+                                </div>
+                                <!--note-->
+                                <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                    Note:<strong>Flat coupan</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!--single tab content-->
+                        <div class="box-xxxl display_none box_padding_l  muli">
+                            <div class="box-xxxl box_padding_t_b_l  talign_c font-size_gtxxxxl_2">
+                                Weekend
+                            </div>
+                            <div class="box-xxxl">
+                                <!--discount-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Flat 10% off
+                                </div>
+                                <!--button-->
+                                <div class="box-xxxl box_padding_xv3 font-size_gtxxxxl_2 font-color_white talign_c background-color_mdealred">
+                                    PAY AND GET CASHBACK                                    
+                                </div>
+                                <!--description-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Flat coupon
+                                </div>
+                                <!--note-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Note:<strong>Flat coupan</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!--single tab content-->
+                        <div class="box-xxxl display_none box_padding_l">
+                            <div class="box-xxxl box_padding_t_b_l  talign_c font-size_gtxxxxl_2">
+                                occupacional
+                            </div>
+                            <div class="box-xxxl box_padding_l font-size_gtxxxxl_2">
+                                <!--discount-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Flat 10% off
+                                </div>
+                                <!--button-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 font-color_white background-color_mdealred talign_c background-color_mdealred">
+                                    PAY AND GET CASHBACK                                    
+                                </div>
+                                <!--description-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Flat coupon
+                                </div>
+                                <!--note-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Note:<strong>Flat coupan</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <!--single tab content-->
+                        <div class="box-xxxl display_none box_padding_l">
+                            <div class="box-xxxl box_padding_t_b_l talign_c font-size_gtxxxxl_2">
+                                weekend
+                            </div>
+                            <div class="box-xxxl box_padding_l font-size_gtxxxxl_2">
+                                <!--discount-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Flat 10% off
+                                </div>
+                                <!--button-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 font-color_white background-color_mdealred talign_c background-color_mdealred">
+                                    PAY AND GET CASHBACK                                    
+                                </div>
+                                <!--description-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Flat coupon
+                                </div>
+                                <!--note-->
+                                <div class="box-xxxl box_padding_l font-size_gtxxxxl_2 talign_c">
+                                    Note:<strong>Flat coupan</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

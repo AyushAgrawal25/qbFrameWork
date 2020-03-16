@@ -1,0 +1,13 @@
+.cards{
+    padding: 5%;
+    .card{
+        width: 100%;
+        padding: 5%;
+        display: inline-block;
+        box-sizing: border-box;
+        border: 5px solid rgb(200,200,200);
+    }
+    .active{
+        border: 5px solid black;
+    }
+}

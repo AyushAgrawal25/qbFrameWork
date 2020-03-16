@@ -1,0 +1,27 @@
+.qb-accordions
+{
+    height:auto;
+    width:auto;
+    overflow:hidden;
+}
+.qb-accordion
+{
+    height:auto;
+    width:auto;
+}
+.qb-accordion-heading
+{
+    height:auto;
+    width:auto;
+}
+.qb-accordion-content
+{
+    height:auto;
+    width:auto;
+}
+.icon
+{
+    height:auto;
+    width:auto;
+    float:right;
+}

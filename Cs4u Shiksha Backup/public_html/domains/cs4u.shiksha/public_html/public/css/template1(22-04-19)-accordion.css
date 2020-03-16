@@ -1,0 +1,28 @@
+.padding-heading-accordion
+{
+    padding:1%;
+}
+.padding-content-accordion
+{
+    padding:1%;
+}
+.margin-accordion
+{
+    margin-bottom:2%;
+}
+.text-color_pinkle
+{
+    color:rgb(255,28,250);
+}
+.bg-color_blarcke
+{
+    background-color:rgb(2,3,11);
+}
+.icon-text-color
+{
+    color:white;
+}
+.border-accordion
+{
+    border:1px solid rgb(224,224,224);
+}

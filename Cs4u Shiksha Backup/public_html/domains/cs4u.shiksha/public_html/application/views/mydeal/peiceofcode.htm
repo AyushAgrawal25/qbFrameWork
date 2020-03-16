@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="FRAMEWORK-basic.css">
+        <link rel="stylesheet" href="FRAMEWORK-styling.css">
+        <link rel="stylesheet" href="FRAMEWORK-font-styling.css">
+        <link rel="stylesheet" href="businesspage(basic).css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.17/angular.js" data-server="1.3.17"></script>
+        <script src="../../../public/js/cube_fabric.js"></script>   	
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="../../../public/css/widgets.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <title>
+           my deal 
+        </title>
+        <style>
+        .input_blank
+        {
+            border:none;
+            border-style:none;
+            width:100%;
+            padding-bottom: 0;
+            padding-top: 0;
+            box-sizing:border-box;
+        }
+        .sub-menu-heading
+        {
+            overflow:hidden;
+        }
+        .sub-menu-heading:hover
+        {
+            color:#EF3F23;
+            font-size:5.5vw;
+            font-weight:bold;
+        }
+        .drop_menu:hover
+        {
+            color:#EF3F23;
+            font-weight:bold;
+        }
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <!--box-container-->
+        <qb-bar qb-bar-type="menu" qb-bar-id="Mainpage" qb-open-class="display_block" qb-close-class="display_none">
+            <div class="box-container muli">
+            <!--top-menu-->
+            <qb-bar qb-bar-type="menu" qb-bar-id="myMenuBar" qb-open-class="display_block" qb-close-class="display_none">
+                <div class="box-xxxl talign_c font-size_xxxxl box_padding_xl box_padding_t_b_xxxl box_padding_xxl bold_light">
+                    <div class="box_3 position_l">
+                        <div class="box_30-70 positon_l">
+                            <div class="menu-icon">
+                                <qb-icon qb-icon-type="search" qb-icon-id="Mainpage" qb-target-id="menu">
+                                    <i class="fas fa-bars"></i>
+                                </qb-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_3 position_l talign_c">
+                        Hotels
+                    </div>
+                    <div class="box_3 position_l">
+                        <div class="box_30-70 position_r">
+                            <div class="menu-icon">
+                                <qb-show-menus qb-menus-id="Dropdown_location" responsive="true" >
+                                    <qb-menus-icon icon-type="open">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </qb-menus-icon>
+                                    <qb-menus-icon icon-type="close">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </qb-menus-icon>
+                                </qb-show-menus>
+                            </div>
+                        </div>
+                        <div class="box_30-70 position_r">
+                            <div class="menu-icon">
+                                <qb-show-menus qb-menus-id="Dropdown_coupan" responsive="true" >
+                                    <qb-menus-icon icon-type="open">
+                                        <i class="fas fa-ticket-alt"></i>
+                                    </qb-menus-icon>
+                                    <qb-menus-icon icon-type="close">
+                                        <i class="fas fa-ticket-alt"></i>
+                                    </qb-menus-icon>
+                                </qb-show-menus>
+                            </div>
+                        </div>
+                        <div class="box_30-70 position_r">
+                            <div class="menu-icon">
+                                <qb-icon qb-icon-type="search" qb-icon-id="myMenuBar" qb-target-id="mySearchBar">
+                                    <i class="fa fa-search"></i>
+                                </qb-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </qb-bar>
+            <!--DROPDOWN_COUPAN-->
+            <qb-menus classes="hardik,box_shadow" qb-menu-type="icon" qb-menus-id="Dropdown_coupan">
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_t_b_xxxl,box_padding_xxl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Regular 
+                </qb-menu>
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_t_b_xxxl,box_padding_xl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Special
+                </qb-menu>
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_t_b_xxxl,box_padding_xl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Occupasional
+                </qb-menu>
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_t_b_xxxl,box_padding_xl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Weekend
+                </qb-menu>
+            </qb-menus>
+            <!--DROPDOWN_LOCATION-->
+            <qb-menus classes="hardik,box_shadow" qb-menu-type="icon" qb-menus-id="Dropdown_location">
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_xl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Bilaspur 
+                </qb-menu>
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_xl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Raipur
+                </qb-menu>
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_xl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Bhilai
+                </qb-menu>
+                <qb-menu qb-link="#" classes="font-color_black,font-size_ltxv,box_padding_xl,bold_light,background-color_gray_shade_1" qb-anchor-class="drop_menu font-color_black no_underline">
+                    Kota
+                </qb-menu>
+            </qb-menus>
+            <!--search bar-->
+            <qb-bar qb-bar-type="search" qb-bar-id="mySearchBar" qb-open-class="display_block" qb-close-class="display_none">
+                <div class="box-xxxl talign_c font-size_xxxxl box_padding_xl box_padding_t_b_xxxl box_padding_xxl bold_light">
+                <!--search bar-->
+                <div class="box-xxxl">
+                    <!--back-->
+                    <div class="box_10-90 position_l">
+                        <div class="box-xxxl">
+                            <qb-icon style="float:left" qb-icon-type="back" qb-icon-id="mySearchBar" qb-target-id="myMenuBar">
+                                <i class="fa fa-arrow-left"></i>
+                            </qb-icon>
+                        </div>
+                    </div>
+                    <!--input-->
+                    <div class="box_80-20 position_l">
+                        <div class="box-xxxl">
+                            <input type="text" class="input_blank font-size_xxxxl bold_light font-color_gray muli box_padding_r_l_xxxl" placeholder="Search..">
+                        </div>
+                    </div>
+                    <!--close-->
+                    <div class="box_10-90 position_l">
+                        <div class="box-xxxl">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </qb-bar>
+            <!--info div-->
+            <div class="box-xxxl font-size_xxxl bold_light box_padding_t_b_xxl box_padding_r_l_xl border_bottom_gray box_margin_t_b_l">
+                <div class="box_70-30 position_l">
+                    <div class="box-xxxl font-size_ltxxxl_1 font-color_gray">
+                        2 My Deal Hotels available in bilaspur
+                    </div>
+                </div>
+                <div class="box_30-70 position_l">
+                    <!--stars div-->
+                    <div class="box-xxxl talign_c">
+                        <!--star-1-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_green"></i>
+                        </div>
+                        <!--star-2-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_yellow"></i>
+                        </div>
+                        <!--star-3-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_blue"></i>
+                        </div>
+                        <!--star-4-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_violet"></i>
+                        </div>
+                        <!--star-5-->
+                        <div class="box_5 position_l">
+                            <i class="fas fa-star font-color_brightred"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--particular business div -->
+            <div class="box-xxxl box_padding_r_l_l">
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl  box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="intercity.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light box_padding_l">
+                            Intercity International
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_yellow">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_facebook_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l  font-color_brown">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_blue">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="eastpark.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            East Park
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="centralpoint.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            Central Point
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="grandamba.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            Grand Amba
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="downtown.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            Downtown
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="courtyardmarriott.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            Courtyard Marriott
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="regal.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            Regal
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="silveroak.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            Silver Oak
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="ananda.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light box_padding_l">
+                            Ananda Imperial
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--one business div-->
+                <div class="box-xxxl box_margin_t_b_xv1">
+                    <!--profile picture-->
+                    <div class="box-l position_l">
+                        <div class="box-xxxl box_padding_r_l_xv3 box_margin_r_l_xv">
+                            <img class="circle" src="rasoi.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <!--details div-->
+                    <div class="box_60-40 position_l">
+                        <!--name-->
+                        <div class="box-xxxl font-size_xxxl bold_light   box_padding_l">
+                            Rasoi
+                        </div>
+                        <!--type-->
+                        <div class="box-xxxl font-size_xxxl font-color_gray box_padding_l">
+                            Hotel
+                        </div>
+                        <!--coupons-->
+                        <div class="box-xxxl talign_c font-size_xxl box_padding_l">
+                            <!--regular-coupan-->
+                            <div class="box_10-90 position_l font-color_brown">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <!--special-coupan-->
+                            <div class="box_10-90 position_l font-color_violet">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <!--weekend-coupan-->
+                            <div class="box_10-90 position_l font-color_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <!--occupacional-coupan-->
+                            <div class="box_10-90 position_l font-color_google_red">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--rating and comment div-->
+                    <div class="box_15-70-15 position_l  font-size_xxxxl">
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2 font-color_orange">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="box-xxxl talign_c box_padding_t_b_xv2">
+                            <i class="far fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </qb-bar>
+        <!--side menu-->
+        <qb-bar qb-bar-type="search" qb-bar-id="menu" qb-open-class="display_block" qb-close-class="display_none">
+            <div class="box-container">
+            <div class="box-xxxl position_relative border_right_red_s1_s5 border_left_red_s1_s5 muli">
+                <div class="close-button background-color_white box_padding_l font-size_gtxxxxl_3">
+                    <qb-icon qb-icon-type="back" qb-icon-id="menu" qb-target-id="Mainpage">
+                        <i class="fas fa-window-close"></i>
+                    </qb-icon>
+                </div>
+                <div class="box-xxxl">
+                    <!--profile-->
+                    <div class="box-xxxl border_bottom_s2_gray box_margin_xxxl box_margin_t_b_xl box_padding_xxl box_padding_t_b_xxl">
+                        <div class="box_30-70 position_l circle">
+                            <div class="box-xxxl box_padding_xv">
+                                <img src="SudhirSir.jpg" class="circle" width="100%">
+                            </div>
+                        </div>
+                        <div class="box_70-30 position_l">
+                            <div class="box-xxxl bold_light box_padding_t_b_xxxl box_padding_r_l_xxl font-size_gtxxxxl_3">
+                                Sudhir Naidu
+                            </div>
+                            <div class="box-xxxl font-color_gray box_padding_t_b_xl box_padding_r_l_xxl font-size_gtxxxxl_2">
+                                Special Customer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--menu-container-->
+                <div class="box-xxxl">
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3  no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Favorites  
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Profile
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Wallet
+                            </div>
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Refer and Earn
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Payment Request
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                History
+                            </div>
+                        </div>
+                    </div>
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3 no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Apps  
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Add your Buisness
+                            </div>
+                        </div>
+                    </div>
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3  no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Setting 
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Settings
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Logout
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </qb-bar>
+    </body>
+</html>

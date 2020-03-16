@@ -1,0 +1,50 @@
+body
+{
+    padding:0;
+    margin:0;
+}
+.container
+{
+    height:auto;
+    width:auto;
+    overflow:hidden;
+    z-index:1000;
+}
+.menu
+{
+    height:auto;
+    width:23%;
+    float:left;
+}
+.sub-menu
+{
+    height:auto;
+    width:inherit;
+    position:absolute;
+    z-index:1000;
+    display:block;
+    padding-top:inherit;
+}
+.icon
+{
+    height:auto;
+    width:15%;
+    float:right;
+}
+.menu-in-sub-menu
+{
+    height:auto;
+    width:100%;
+    float:none;
+    text-align:left;
+}
+.deep
+{
+    position:absolute;
+    left:100%;
+    top:33.333%;
+}
+.talign-center
+{
+    text-align:center;
+}

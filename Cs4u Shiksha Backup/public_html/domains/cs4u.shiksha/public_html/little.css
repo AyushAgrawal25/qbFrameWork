@@ -1,0 +1,119 @@
+body
+{
+    padding:0;
+    margin:0;
+}
+.box
+{
+    height:auto;
+    width:auto;
+    overflow:hidden;
+}
+.box.xxxl
+{
+    height:auto;
+    width:100%;
+}
+.box.xxl
+{
+    height:auto;
+    width:50%;
+}
+.box.equal3
+{
+    height:auto;
+    width:31.33%;
+    padding:1%;
+}
+.box.xl
+{
+    height:auto;
+    width:25%;
+}
+.box.sidepanel
+{
+    height:auto;
+    width:15%;
+}
+.box.centerpanel
+{
+    height:auto;
+    width:70%;
+}
+.box.xxxl_pm
+{
+    height:auto;
+    width:96%;
+    margin:1%;
+    padding:1%;
+}
+.box.xxl_pm
+{
+    height:auto;
+    width:46%;
+    margin:1%;
+    padding:1%;
+}
+.box.xl_pm
+{
+    height:auto;
+    width:21%;
+    margin:1%;
+    padding:1%;
+}
+.box.sidepanel_pm
+{
+    height:auto;
+    width:11%;
+    margin:1%;
+    padding:1%;
+}
+.box.centerpanel_pm
+{
+    height:auto;
+    width:66%;
+    margin:1%;
+    padding:1%;
+}
+.box.post
+{
+    height:auto;
+    width:98%;
+    padding:0;
+    margin:1%;
+}
+.menu
+{
+    height:auto;
+    width:auto;
+}
+.box.postside
+{
+    height:auto;
+    width:10%;
+}
+.box.postcenter
+{
+    height:auto;
+    width:80%;
+}
+.floatL
+{
+    float:left;
+}
+.floatR
+{
+    float:right;
+}
+.txt
+{
+    font-style:fira sans;
+    color:black;
+    text-align:center;
+    font-size:20px;
+}
+.fontblack
+{
+    color:white;
+    background-color:black;
+}

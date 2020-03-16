@@ -1,0 +1,161 @@
+body
+{
+    padding:0;
+    margin:0;
+}
+.container
+{
+    height:auto;
+    width:auto;
+    overflow:hidden;
+}
+.fixed
+{
+    position:fixed;
+    top:0;
+    padding:0;
+    margin:0;
+    clear:both;
+    width:100%;
+    z-index:1;
+}
+.hidden
+{
+    visibility:none;
+}
+.heading
+{
+    height:auto;
+    width:auto;
+}
+.menu
+{
+    height:auto;
+    width:auto;   
+    overflow:hidden;
+}
+.menu-items
+{
+    height:auto;
+    width:10%;    
+}
+.box-container
+{
+    height:auto;
+    width:auto; 
+    overflow:hidden;
+}
+.row
+{
+    height:auto;
+    width:auto;  
+    overflow:hidden;
+}
+.square-box
+{
+    height:auto;
+    width:38%;
+    border-radius:10px;
+    position:relative;
+}
+.circle
+{
+    height:50%;
+    width:50%;
+    border-radius:50%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:15%;
+    overflow:hidden;
+    background-color:black;
+}
+.small-circle
+{
+    height:10%;
+    width:10%;
+    border-radius:50%;
+    position:absolute;
+    bottom:25%;
+    right:9%;
+    font-size:2vw;
+}
+.bg-color-container
+{
+    background-color:#E4EAF2;
+}
+.bg-color-menu
+{
+    background-color:#0A1326;
+}
+.bg-color-square-box
+{
+    background-color:white;
+}
+.bg-color-circle
+{
+    background-color:red;
+}
+.font-styling-menu-items
+{
+    font-family:Font Awesome 5 Free;
+    font-size:8vw;
+    color:white;
+}
+.font-styling-heading
+{
+    font-family:Open Sans;
+    font-size:10vw;
+    color:#2E3D59;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+}
+.font-styling-box
+{
+    font-family:PT Sans;
+    font-size:5vw;
+}
+.position-left
+{
+    float:left;
+}
+.position-right
+{
+    float:right;
+}
+.text-align_c
+{
+    text-align:center;
+}
+.padding-margin-square-box
+{
+    padding:2%;
+    padding-bottom:5%;
+    margin:4%;
+}
+.padding-heading
+{
+    padding:2%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.margin-menu
+{
+    margin-bottom:0.5%;
+}
+.padding-menu
+{
+    padding:0.5%;
+}
+img
+{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+.box-shadow
+{
+    box-shadow:5px 5px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.menu-shadow
+{
+    box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}

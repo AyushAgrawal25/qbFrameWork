@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    height: 100%; 
+
+    .qb-accs{
+        width: 100%;
+        height: auto;
+        padding: 5%;
+        box-sizing: border-box;
+
+        .qb-acc{
+            width: 100%;
+            height: auto;
+            border: 2px solid #d8d8d8;
+            margin-bottom: 50px;
+
+            .qb-acc-head{
+                padding: 20px;
+                font-size: 20px;
+                font-family: sans-serif;
+                font-weight: 550;
+            }
+
+            .qb-acc-content{
+                padding: 20px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: sans-serif;
+            }
+
+            .active{
+                background-color: #5db3ff;
+                color: #f8f8f8;
+            }
+
+            .inactive{
+                background-color: #f0efef;
+                color: #333232;
+            }
+
+            .open{
+                display: block;
+            }
+            .close{
+                display: none;
+            }
+        }
+    }
+
+    .test-div{
+        width: 100%;
+        padding: 5%;
+        background-color: rgb(204, 203, 203);
+        color: rgb(17, 16, 16);
+    }
+}

@@ -1,0 +1,15 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="public/js/pixel.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+    <div ng-repeat="data in datas">
+    <datacard name="{{data}}" ng-model="firstname">
+    	Complete Data:
+    </datacard>
+	<row color="red" margin="10" border="40,solid" > Man </row>
+	<my-dialog> Aman </my-dialog>
+    </div>
+</div>
+</body>
+</html>

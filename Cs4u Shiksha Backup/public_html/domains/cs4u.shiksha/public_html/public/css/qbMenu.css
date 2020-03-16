@@ -1,0 +1,158 @@
+        /*Menus*/
+        .qb-menus
+        {
+           height:auto;
+           width:auto;
+        }
+        .qb-menus-icon
+        {
+        }
+        .qb-menus-icon-open
+        {
+            display:block;
+        }
+        .qb-menus-icon-close
+        {
+            display:none;
+        }
+        .qb-menus-heading
+        {
+            width:auto;
+        }
+        .qb-menu
+        {
+            display:block;
+        }
+        .qb-menu-heading
+        {
+            height:auto;
+            width:auto;
+        }
+        .qb-menus-open
+        {
+            display:block;
+        }
+        .qb-menus-close
+        {
+            display:none;
+        }
+        .qb-sub-sub-menus
+        {
+            display:none;
+        }
+        
+        
+        /*Top Menus*/
+        .qb-top-menus
+        {
+           height:auto;
+           width:auto;
+        }
+        .qb-menu-in-top-menus
+        {
+            width:20%;
+            float:left;
+        }
+        .qb-top-sub-menus
+        {
+            height:auto;
+            width:inherit;
+            position:absolute;
+            display:none;
+        }
+        .qb-sub-sub-menus-top-type
+        {
+            position:absolute;
+            left:100%;
+            height:auto;
+            width:100%;
+            top:50%;
+        }
+        .qb-menu-in-top-menus:hover > .qb-top-sub-menus
+        {
+            display:block;
+        }
+        .qb-menu-in-sub-menus:hover > .qb-sub-sub-menus-top-type
+        {
+            display:block;
+        }
+        
+        /*Left Menus*/
+        .qb-left-menus
+        {
+           height:auto;
+           width:auto;
+        }
+        .qb-sub-sub-menus-left-type
+        {
+            height:auto;
+            width:100%;
+        }
+        .qb-menu-in-left-menus
+        {
+            width:100%;
+            float:left;
+        }
+        .qb-left-sub-menus
+        {
+            height:auto;
+            width:inherit;
+            display:none;
+        }
+        .qb-sub-sub-menus-left-type
+        {
+        }
+        .qb-menu-in-left-menus:hover > .qb-left-sub-menus
+        {
+            display:block;
+        }
+        .qb-menu-in-sub-menus:hover > .qb-sub-sub-menus-left-type
+        {
+            display:block;
+        }
+        
+        /*Right Menus*/
+        .qb-right-menus
+        {
+           height:auto;
+           width:auto;
+        }
+        .qb-sub-sub-menus-right-type
+        {
+            height:auto;
+            width:100%;
+        }
+        .qb-menu-in-left-menus
+        {
+            width:100%;
+            float:left;
+        }
+        .qb-right-sub-menus
+        {
+            height:auto;
+            width:inherit;
+            display:none;
+        }
+        .qb-sub-sub-menus-right-type
+        {
+        }
+        .qb-menu-in-right-menus:hover > .qb-right-sub-menus
+        {
+            display:block;
+        }
+        .qb-menu-in-sub-menus:hover > .qb-sub-sub-menus-right-type
+        {
+            display:block;
+        }
+        
+        /*Sub Menus*/
+        .qb-sub-menus
+        {
+            
+        }
+        .qb-menu-in-sub-menus
+        {
+            width:100%;
+            float:none;
+            display:block;
+        }

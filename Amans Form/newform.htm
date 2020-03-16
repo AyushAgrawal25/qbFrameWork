@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+            <link rel="stylesheet" href="FRAMEWORK-basic.css">
+            <link rel="stylesheet" href="FRAMEWORK-styling.css">
+            <link rel="stylesheet" href="FRAMEWORK-font-styling.css">
+            <link rel="stylesheet" href="homescreen(basic).css">
+            <link rel="stylesheet" href="top-menu.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.17/angular.js" data-server="1.3.17"></script>
+            <script src="cube_fabric.js"></script>   	
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="widgets.css">
+            <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <title>
+            New Form
+        </title>
+        <style>
+            .menu-item{
+                float: left;
+                width: auto;
+                margin: 2%;
+            }
+            /*input start*/
+            .input_container{
+                height:auto;
+                width:auto;
+            }
+            .custom_input_blank{
+                height:auto;
+                width:-webkit-fill-available;
+                box-shadow:none;
+                border:none;
+                margin:0;
+                padding:0;
+                outline:none;
+            }
+            .custom_input_style{
+                font-family:muli;
+                font-size:4.5vw;
+                border-bottom:1px solid rgb(235,235,235);
+                padding:3%;
+                margin:3%;
+            }
+            .custom_input_style:focus{
+                border-bottom:3px solid #4CAF50;
+            }
+            .open{
+                display: block;
+            }
+            .close{
+                display: none;
+            }
+            /*input end*/
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <div class="box-container muli">
+            <!--top-menu-->
+            <div class="box-xxxl talign_c font-size_xxxxl box_padding_t_b_xxxl box_padding_xxl bold_light">
+                <div class="box_3 position_l">
+                    <div class="box_30-70 positon_l">
+                        <div class="menu-icon">
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_3 position_l talign_c">
+                    New Form
+                </div>
+                <div class="box_3 position_l">
+                    
+                </div>
+            </div>
+            <!--rectangular boxes container-->
+            <div class="box-xxxl border_bottom_gray_sh box_margin_xxl box_padding_l no_wrap">
+                <!--rectangular box curvy ends-->
+                <div class="display_ib round-corners_max background-color_gray box_padding_xl box_margin_l font-size_xxxl">coupans</div>
+                <!--rectangular box curvy ends-->
+                <div class="display_ib round-corners_max background-color_gray box_padding_xl box_margin_l font-size_xxxl">today</div>
+                <!--rectangular box curvy ends-->
+                <div class="display_ib round-corners_max background-color_gray box_padding_xl box_margin_l font-size_xxxl">coupans</div>
+                <!--rectangular box curvy ends-->
+                <div class="display_ib round-corners_max background-color_gray box_padding_xl box_margin_l font-size_xxxl">coupans</div>
+                <!--rectangular box curvy ends-->
+                <div class="display_ib round-corners_max background-color_gray box_padding_xl box_margin_l font-size_xxxl">coupans</div>
+            </div>
+            <!--form container-->
+            <div class="box-xxxl box_padding_r_l_xxxxl">
+                <!--combo-box-->
+                <div class="box-xxxl">
+                    <qb-select qb-model="name2" qb-class="this-is-select" qb-options-open-class="open" qb-options-close-class="close">
+                        <qb-option value="Nothing"  qb-class="opt_green">Select Name</qb-option>
+                        <qb-option value="Ayush" default="true" qb-class="opt_blue">Ayush</qb-option>
+                        <qb-option value="Dumbo" qb-class="opt_red">Aman</qb-option>
+                        <qb-option value="Ankit" qb-class="opt_blue">Ankit</qb-option>
+                        <qb-option value="Sanskar" qb-class="opt_green">Sanskar</qb-option>
+                    </qb-select>
+                </div>
+                <div class="not required">
+                    <input type="text" ng-model="name2">
+                </div>
+
+                //Set Container width attribute
+                <div class="menu-contents" qb-set-container-width>
+                    <div class="menu-item">Home</div>
+                    <div class="menu-item">About</div>
+                    <div class="menu-item">Programs</div>
+                    <div class="menu-item">Trainers</div>
+                    <div class="menu-item">Pricing</div>
+                    <div class="menu-item">Blog</div>
+                    <div class="menu-item">Contact</div>
+                </div>
+                <select ng-model="name3">
+                    <option value="Ayush">Ayush</option>
+                    <option value="Dumbo">Aman</option>
+                    <option value="sanskar">Sanskar</option>
+                </select>
+                <input ng-model="name3">
+                <!--Discount-->
+                <div class="box-xxxl box_margin_t_b_xxl">
+                    <div class="input_container">
+                        <input type="text" placeholder="Discount..." class="custom_input_blank custom_input_style">
+                    </div>
+                </div>
+                <!--Maximum Discount-->
+                <div class="box-xxxl box_margin_t_b_xxl">
+                    <div class="input_container">
+                        <input type="text" placeholder="Maximum Discount..." class="custom_input_blank custom_input_style">
+                    </div>
+                </div>
+                <!--Minimum purchase-->
+                <div class="box-xxxl box_margin_t_b_xxl">
+                    <div class="input_container">
+                        <input type="text" placeholder="Minimum Discount..." class="custom_input_blank custom_input_style">
+                    </div>
+                </div>
+                <!--button-edit-->
+                <div class="box-xxxl display_flex center box_margin_xl">
+                    <div class="button_container box-xl">
+                        <input type="button" class="unset webkit_fill display_flex center round-corners_max box_padding_xl box_margin_l background-color_green font-color_white font-size_ltxv_2 bold_light muli" value="Edit">
+                    </div>
+                </div>
+                <!--button-disable-->
+                <div class="box-xxxl display_flex center box_margin_xl">
+                    <div class="button_container box-xl">
+                        <input type="button" class="unset webkit_fill display_flex center round-corners_max box_padding_xl box_margin_l background-color_gray font-color_white font-size_ltxv_2 bold_light muli" value="Disable">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

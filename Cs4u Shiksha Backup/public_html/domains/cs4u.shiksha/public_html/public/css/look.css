@@ -1,0 +1,29 @@
+.bg-color_discover
+{
+    background-color:rgb(31,1,41);  
+    color:white;
+}
+.padding-container
+{
+    padding:1%;
+}
+.padding-heading
+{
+    padding:1%;
+}
+.padding-content
+{
+    padding:2%;
+}
+.border-bottom
+{
+    border-bottom:2px solid gray;
+}
+.hover
+{
+    transition:border-bottom 0.75s ease-in-out 0s;
+}
+.qb-tab-heading:hover
+{
+    border-bottom:2px solid red;
+}

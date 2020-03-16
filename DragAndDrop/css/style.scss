@@ -1,0 +1,26 @@
+.qbCardShadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.28); 
+}
+
+.qb-app{
+    text-align: center;
+}
+.qb-title-wrap{
+    padding: 20px;
+    width: 45%;
+    height: 80px;
+    margin: 20px;
+    border: 1px solid #d1d1d1;
+
+    .qb-title{
+        position: absolute;
+        height: 80px;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Helvetica, sans-serif;
+    }
+}

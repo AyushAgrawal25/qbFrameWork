@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/test.js"></script>
+    <link rel="stylesheet" href="css/test.css">
+</head>
+<body>
+    <div ng-app="qbApp" ng-controller="qbCtrl" class="container">
+        <qb-accordions classes="qb-accs" qb-accordions-id="78">
+            <qb-accordion classes="qb-acc" ng-repeat="sata in satas" ng-init="initFun()">
+                <qb-acc-heading classes="qb-acc-head" qb-active-class="active"qb-inactive-class="inactive">{{sata}}</qb-acc-heading>
+                <qb-acc-content classes="qb-acc-content" qb-open-class="open" qb-close-class="close">Acc 1 Content</qb-acc-content>
+            </qb-accordion>
+            
+            <qb-accordion classes="qb-acc" atr="yes">
+                <qb-acc-heading classes="qb-acc-head" qb-active-class="active"qb-inactive-class="inactive">Acc 1 Head</qb-acc-heading>
+                <qb-acc-content classes="qb-acc-content" qb-open-class="open" qb-close-class="close">Acc 1 Content</qb-acc-content>
+            </qb-accordion>
+        </qb-accordions>
+
+        <div class="test-div" ng-repeat="sata in satas">
+            <div class="test-child ng-scope"  ng-click="clickfun()">
+                {{sata}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

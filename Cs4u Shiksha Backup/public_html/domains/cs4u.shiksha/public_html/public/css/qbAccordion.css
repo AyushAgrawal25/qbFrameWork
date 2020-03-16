@@ -1,0 +1,28 @@
+/*accordions old css 24-04-2019*/
+.qb-accordions{
+    width:100%;
+}
+.qb-accordion{
+    margin:10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.qb-accordion-heading{
+    width:100%;
+    padding:10px;   
+}
+.qb-accordion-content{
+    background-color:white;
+    float: left;
+    width:100%;\
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    display:block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}

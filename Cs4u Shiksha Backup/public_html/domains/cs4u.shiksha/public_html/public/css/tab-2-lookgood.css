@@ -1,0 +1,54 @@
+ 	/*for background color*/
+        .bg-color_black
+        {
+            background-color:black;
+            color:white;
+        }
+        .bg-color_whitesmoke
+        {
+           /* background-color:rgba(245, 245, 245, 0.53);  */
+           background-color:white;
+        }
+        .bg-color_lightgray
+        {
+            background-color:rgba(128, 128, 128, 0.39);
+        }
+        .bg-color_dimblack
+        {
+            background-color:rgba(0, 0, 0, 0.78);
+        }
+        /*for padding*/
+        .padding-container
+        {
+            padding:0.2%;   
+        }
+        .padding-heading
+        {
+            padding:0.5%;   
+        }
+        .padding-content
+        {
+            padding:2%;    
+        }
+        /*hoverable features class add*/
+        .heading_hover
+        {
+            background-color:rgba(255, 255, 255, 0.82);
+            color:black;
+        }
+        /*text-align*/
+        .talign_c
+        {
+            text-align:center;
+        }
+        /*creative-styling*/
+        .border-radius-top
+        {
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+        }
+        .border-radius-bottom
+        {
+            border-bottom-left-radius:10px;
+            border-bottom-right-radius:10px;
+        }

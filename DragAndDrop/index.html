@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <script src="js/angular.js"></script>
+    <script src="js/drag.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div ng-app="qbApp" ng-controller="qbCtrl" class="qb-app" unselectable="on" onselect="return false">
+        <div class="qb-title-wrap">
+            <div class="qb-title qbCardShadow" >
+                Ayush Agrawal
+            </div>
+        </div>
+        <div class="qb-title-wrap" ondrop="qbDropFun()">
+
+        </div>
+    </div>
+
+    <script>
+        function qbDropFun(){
+            console.log("AYush Agrawal");
+        }
+    </script>
+</body>
+</html>

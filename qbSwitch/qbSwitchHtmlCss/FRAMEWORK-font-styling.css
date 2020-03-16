@@ -1,0 +1,500 @@
+.bold
+{
+    font-weight:900;
+}
+.bold_light
+{
+    font-weight:bold;
+}
+.italic
+{
+    font-style: italic;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.no_underline
+{
+    text-decoration:none;    
+}
+.font-size_xv4
+{
+    font-size:10vw;
+}
+.font-size_ltxv4_4
+{
+    font-size:9.9vw;
+}
+.font-size_ltxv9_3
+{
+    font-size:9.8vw;
+}
+.font-size_ltxv9_2
+{
+    font-size:9.7vw;
+}
+.font-size_ltxv9_1
+{
+    font-size:9.6vw;
+}
+.font-size_btwxv4andxv3
+{
+    font-size:9.5vw;
+}
+.font-size_gtxv3_3
+{
+    font-size:9.4vw;
+}
+.font-size_gtxv3_2
+{
+    font-size:9.3vw;
+}
+.font-size_gtxv3_1
+{
+    font-size:9.2vw;
+}
+.font-size_xv3
+{
+    font-size:9vw;
+}
+.font-size_ltxv3_4
+{
+    font-size:8.9vw;
+}
+.font-size_ltxv3_3
+{
+    font-size:8.8vw;
+}
+.font-size_ltxv3_2
+{
+    font-size:8.7vw;
+}
+.font-size_ltxv3_1
+{
+    font-size:8.6vw;
+}
+.font-size_btwxv3andxv2
+{
+    font-size:8.5vw;
+}
+.font-size_gtxv2_3
+{
+    font-size:8.4vw;
+}
+.font-size_gtxv2_2
+{
+    font-size:8.3vw;
+}
+.font-size_gtxv2_1
+{
+    font-size:8.2vw;
+}
+.font-size_xv2
+{
+    font-size:8vw;
+}
+.font-size_ltxv2_4
+{
+    font-size:7.9vw;
+}
+.font-size_ltxv2_3
+{
+    font-size:7.8vw;
+}
+.font-size_ltxv2_2
+{
+    font-size:7.7vw;
+}
+.font-size_ltxv2_1
+{
+    font-size:7.6vw;
+}
+.font-size_btwxv2andxv1
+{
+    font-size:7.5vw;
+}
+.font-size_gtxv1_3
+{
+    font-size:7.4vw;
+}
+.font-size_gtxv1_2
+{
+    font-size:7.3vw;
+}
+.font-size_gtxv1_1
+{
+    font-size:7.2vw;
+}
+.font-size_xv1
+{
+    font-size:7vw;
+}
+.font-size_ltxv1_4
+{
+    font-size:6.9vw;
+}
+.font-size_ltxv1_3
+{
+    font-size:6.8vw;
+}
+.font-size_ltxv1_2
+{
+    font-size:6.7vw;
+}
+.font-size_ltxv1_1
+{
+    font-size:6.6vw;
+}
+.font-size_btwxv1andxv
+{
+    font-size:6.5vw;
+}
+.font-size_gtxv_3
+{
+    font-size:6.4vw;
+}
+.font-size_gtxv_2
+{
+    font-size:6.3vw;
+}
+.font-size_gtxv_1
+{
+    font-size:6.2vw;
+}
+.font-size_xv
+{
+    font-size:6vw;
+}
+.font-size_ltxv_4
+{
+    font-size:5.9vw;
+}
+.font-size_ltxv_3
+{
+    font-size:5.8vw;
+}
+.font-size_ltxv_2
+{
+    font-size:5.7vw;
+}
+.font-size_ltxv_1
+{
+    font-size:5.6vw;
+}
+.font-size_btwxvandxxxxl
+{
+    font-size:5.5vw;
+}
+.font-size_gtxxxxl_3
+{
+    font-size:5.4vw;
+}
+.font-size_gtxxxxl_2
+{
+    font-size:5.3vw;
+}
+.font-size_gtxxxxl_1
+{
+    font-size:5.2vw;
+}
+.font-size_xxxxl
+{
+    font-size:5vw;
+}
+.font-size_ltxxxxl_4
+{
+    font-size:4.9vw;
+}
+.font-size_ltxxxxl_3
+{
+    font-size:4.8vw;
+}
+.font-size_ltxxxxl_2
+{
+    font-size:4.7vw;
+}
+.font-size_ltxxxxl_1
+{
+    font-size:4.6vw;
+}
+.font-size_btwxxxxlandxxxl
+{
+    font-size:4.5vw;
+}
+.font-size_gtxxxl_3
+{
+    font-size:4.4vw;
+}
+.font-size_gtxxxl_2
+{
+    font-size:4.3vw;
+}
+.font-size_gtxxxl_1
+{
+    font-size:4.2vw;
+}
+.font-size_xxxl
+{
+    font-size:4vw;
+}
+.font-size_ltxxxl_4
+{
+    font-size:3.9vw;
+}
+.font-size_ltxxxl_3
+{
+    font-size:3.8vw;
+}
+.font-size_ltxxxl_2
+{
+    font-size:3.7vw;
+}
+.font-size_ltxxxl_1
+{
+    font-size:3.6vw;
+}
+.font-size_btwxxxlandxxl
+{
+    font-size:3.5vw;
+}
+.font-size_gtxxl_3
+{
+    font-size:3.4vw;
+}
+.font-size_gtxxl_2
+{
+    font-size:3.3vw;
+}
+.font-size_gtxxl_1
+{
+    font-size:3.2vw;
+}
+.font-size_xxl
+{
+    font-size:3vw;
+}
+.font-size_xl
+{
+    font-size:2vw;
+}
+.font-size_ltxl_4
+{
+    font-size:1.9vw;
+}
+.font-size_ltxl_3
+{
+    font-size:1.8vw;
+}
+.font-size_ltxl_2
+{
+    font-size:1.7vw;
+}
+.font-size_ltxl_1
+{
+    font-size:1.6vw;
+}
+.font-size_btwxlandl
+{
+    font-size:1.5vw;
+}
+.font-size_gtl_3
+{
+    font-size:1.4vw;
+}
+.font-size_gtl_2
+{
+    font-size:1.3vw;
+}
+.font-size_gtl_1
+{
+    font-size:1.2vw;
+}
+.font-size_l
+{
+    font-size:1vw;
+}
+.font-size_s
+{
+    font-size:0.8vw;
+}
+.font-color_black
+{
+    color:black;
+}
+.font-color_white
+{
+    color:white;
+}
+.font-color_gray
+{
+    color:#A59E9E;
+}
+.font-color_dblue
+{
+    color:#435461;
+}
+.font-color_brown_s1
+{
+    color:#5E5E5E;
+}
+.font-color_brown_s2
+{
+    color:#6B6B6B;
+}
+.font-color_brown_s3
+{
+    color:#D5C6BD;
+}
+.font-color_fadepurple
+{
+    color:#EAACF2;
+}
+.font-color_orange
+{
+    color:#FF3B0D;
+}
+.font-color_yellow
+{
+    color:#FEFE33;
+}
+.font-color_yellow_s1
+{
+    color:#F2D544;
+}
+.font-color_blue
+{
+    color:#0554F2;
+}
+.font-color_brightred
+{
+    color:#ED2227;
+}
+.font-color_violet
+{
+    color:#7503A6;
+}
+.font-color_red_shade_1
+{
+    color:#FF8893;
+}
+.font-color_red_shade_2
+{
+    color:#FC737F;
+}
+.font-color_red_shade_3
+{
+    color:#F35F6A;
+}
+.font-color_red_shade_4
+{
+    color:#E2515A;
+}
+.font-color_red_shade_5
+{
+    color:#DD3E49;
+}
+.font-color_facebook_blue
+{
+    color:#37538C;
+}
+.font-color_google_red
+{
+    color:#D9483B;
+}
+.font-color_green
+{
+    color:#92BF4E;
+}
+.font-color_purple
+{
+    color:#9B40FF;
+}
+.font-color_light_red
+{
+    color:#F22E62;
+}
+.font-color_dark_red
+{
+    color:#BF2C47;
+}
+.font-color_brown
+{
+    color:#8C2323;
+}
+.font-color_mdealred
+{
+    color:#EF3F23;
+}
+.font-color_dark_blue
+{
+    color:#2A1D59;
+}
+.font-color_creame
+{
+    color:#F2E5A2;
+}
+.roboto
+{
+    font-family:roboto;
+}
+.ubuntu
+{
+    font-family:ubuntu;
+}
+.monospace
+{
+    font-family:monospace;
+}
+.montserrat
+{
+    font-family:montserrat;
+}
+.roboto-slab
+{
+    font-family:'roboto slab', sans-serif;
+}
+.arvo
+{
+    font-family:arvo;
+}
+.open-sans
+{
+    font-family:open sans;
+}
+.raleway
+{
+    font-family:raleway;
+}
+.playfair-display
+{
+    font-family:'playfair display', sans-serif;
+}
+.merriweather
+{
+    font-family:merriweather;
+}
+.source-sans-pro-semibold
+{
+    font-family:'source sans pro semibold', sans-serif;
+}
+.Bahnschrift-SemiBold
+{
+    font-family:'Bahnschrift SemiBold', sans-serif;
+}
+.muli
+{
+    font-family:muli;
+}
+.Nunito
+{
+    font-family:Nunito;
+}
+.Nunito_Sans
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Alegreya_Sans
+{
+    font-family:'Alegreya Sans', sans-serif;
+}

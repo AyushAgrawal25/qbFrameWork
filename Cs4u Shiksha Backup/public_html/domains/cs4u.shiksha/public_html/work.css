@@ -1,0 +1,154 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+.box
+{
+    height:auto;
+    width:auto;
+    overflow:hidden;
+}
+.grid
+{
+    height:auto;
+    width:37.91%;
+    padding:3%;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.grid.left
+{
+    float:left;
+    margin-left:6%;
+    box-shadow:1px 0 1px 1px rgb(240,240,240);
+}
+.grid.right
+{
+    float:right;
+    margin-right:6%;
+    box-shadow:-1px 0 1px 1px rgb(240,240,240);
+}
+.top-menu
+{
+    height:auto;
+    width:auto;
+    overflow:hidden;
+}
+.top-right
+{
+    height:auto;
+    width:8%;
+    padding:1.5%;
+    float:right;
+    position:relative;
+}
+.top-left
+{
+    height:auto;
+    width:8%;
+    padding:1.5%;
+    float:left;
+    position:relative;
+}
+.subscriptnum
+{
+    height:auto;
+    width:38px;
+    position:absolute;
+    top:2%;
+    right:15%;
+    color:white;
+    background-color:red;
+    border-radius:50%;
+    font-size:30px;
+    overflow:hidden;
+}
+.attr
+{
+    height:auto;
+    width:auto;
+    min-height:26px;
+    min-width:26px;
+    position:absolute;
+    top:0;
+    right:30%;
+    border-radius:10px;
+    background-color:red;
+    color:white;
+    font-size:20px;
+    padding:2px;
+}
+.bg-color_main
+{
+    background-color:rgb(251,251,251);
+}
+.bg-color_grid
+{
+    background-color:rgb(252,252,252);
+}
+.bg-color_menu
+{
+    background-color:rgb(242,242,242);
+}
+.font-style
+{
+    font-style:Muli;
+    font-size:70px;
+    color:black;
+    text-align:center;
+}
+.font-style.font-size_icon
+{
+    font-size:90px;
+    color:#42A5F5;
+}
+.font-style.font-size_something
+{
+    font-size:35px;
+    color:rgb(201,201,201);
+}
+.position
+{
+    position:relative;
+}
+.case1
+{
+    
+}
+.case1:hover
+{
+    background-color:#5E35B1;
+}
+.case2
+{
+    
+}
+.case2:hover
+{
+    background-color:#D50000;
+}
+.case3
+{
+    
+}
+.case3:hover
+{
+    background-color:#76FF03;
+}
+.case4
+{
+    
+}
+.case4:hover
+{
+    background-color:#FFFF00;
+}
+.top-right:hover
+{
+    background-color:rgb(221,221,221);
+}
+.top-left:hover
+{
+    background-color:rgb(221,221,221);
+}

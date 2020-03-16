@@ -1,0 +1,30 @@
+.menu_padding
+{
+    padding:1%;
+    background-color:#030526;
+    color:#F2C9E0;
+}
+.menu_in_sub-menu_padding
+{
+    padding-top:3%;
+    padding-bottom:3%;
+    background-color:#030526;
+}
+.font_style_menu
+{
+    font-size:1.3vw;
+    font-family:Roboto;
+}
+.font_style_menu_in_sub_menu
+{
+    font-size:1.2vw;
+    font-family:Roboto Condensed;
+}
+.menu:hover > .sub-menu
+{
+    display:block;
+}
+.menu:hover
+{
+    background-color:black;
+}

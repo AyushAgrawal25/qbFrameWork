@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="FRAMEWORK-basic.css">
+        <link rel="stylesheet" href="FRAMEWORK-styling.css">
+        <link rel="stylesheet" href="FRAMEWORK-font-styling.css">
+        <link rel="stylesheet" href="homescreen(basic).css">
+        <link rel="stylesheet" href="top-menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.17/angular.js" data-server="1.3.17"></script>
+        <script src="js/cube_fabric.js"></script>   	
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="widgets.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <title>
+            setting
+        </title>
+        <style>
+            .toggle_switch{
+                background-color:whitesmoke;
+            }
+            .toggle_circle{
+                top:0;
+                left:0;
+                height:21px;
+                width:21px;
+            }
+            .custom_test_cb{
+                top:0;
+                left:0;
+                height:21px;
+                width:21px;
+                z-index:1000;
+            }
+
+            .custom_test_cb:checked + .toggle_circle{
+                left:unset;
+                right:0;
+                background-color: white !important;
+            }
+            .custom_test_cb:checked{
+                left:unset;
+                right:0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box-container muli">
+            <!--top -menu-->
+            <div class="box-xxxl talign_c font-size_xxxxl box_padding_xl box_padding_t_b_xxxl box_padding_xxl bold_light">
+                <div class="box_3 position_l">
+                    <div class="box_30-70 positon_l">
+                        <div class="menu-icon">
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_3 position_l talign_c">
+                    setting
+                </div>
+                <div class="box_3 position_l">
+                    
+                </div>
+            </div>
+
+
+
+            <!--all settings-->
+            <div class="box-xxxl box_padding_xl">
+                <!--setting-->
+                <div class="box-xxxl display_flex box_padding_xxxl box_margin_xl box_margin_t_b_xxxxl  border_bottom_gray">
+                    <!--what is the setting-->
+                    <div class="box_80-20 postion_l">
+                        <div class="box-xxxl">
+                            <!--title of setting-->
+                            <div class="box-xxxl font-size_ltxxxxl_4 bold_light">
+                                Dark Theme
+                            </div>
+                            <!--about setting-->
+                            <div class="box-xxxl font-size_ltxxxl_3 font-color_gray">
+                                it changes the theme to dark for night usage
+                            </div>
+                        </div>
+                    </div>
+                    <!--turn on or off-->
+                    <div class="box_20-80 postion_l vertical_alignment_center">
+                        <div class="webkit_fill">
+                            <!--toggle switch-->
+                            <div class="toggle_switch box-xxxl round-corners_max box_padding_xv3">
+                                <div class="box-xxxl webkit_fill position_relative">
+                                    <input type="checkbox" class="custom_test_cb opacity_transperent position_absolute">
+                                    <div class="toggle_circle  circle background-color_black position_absolute">
+                                        
+                                    </div>
+                                    <div class="toggle_circle  circle background-color_black opacity_transperent">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--setting-->
+                <div class="box-xxxl display_flex box_padding_xxxl box_margin_xl box_margin_t_b_xxxxl border_bottom_gray">
+                    <!--what is the setting-->
+                    <div class="box_80-20 postion_l">
+                        <div class="box-xxxl">
+                            <!--title of setting-->
+                            <div class="box-xxxl font-size_ltxxxxl_4 bold_light">
+                                Data saver
+                            </div>
+                            <!--about setting-->
+                            <div class="box-xxxl font-size_ltxxxl_3 font-color_gray">
+                                it reduces your data usage by restricting somethings
+                            </div>
+                        </div>
+                    </div>
+                    <!--turn on or off-->
+                    <div class="box_20-80 postion_l vertical_alignment_center">
+                        <div class="webkit_fill">
+                            <!--toggle switch-->
+                            <div class="toggle_switch box-xxxl round-corners_max box_padding_xv3">
+                                <div class="box-xxxl webkit_fill position_relative">
+                                    <input type="checkbox" class="custom_test_cb opacity_transperent position_absolute">
+                                    <div class="toggle_circle  circle background-color_black position_absolute">
+                                        
+                                    </div>
+                                    <div class="toggle_circle  circle background-color_black opacity_transperent">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

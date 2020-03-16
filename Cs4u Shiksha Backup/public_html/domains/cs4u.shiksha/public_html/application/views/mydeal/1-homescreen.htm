@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="FRAMEWORK-basic.css">
+        <link rel="stylesheet" href="FRAMEWORK-styling.css">
+        <link rel="stylesheet" href="FRAMEWORK-font-styling.css">
+        <link rel="stylesheet" href="homescreen(basic).css">
+        <link rel="stylesheet" href="top-menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.17/angular.js" data-server="1.3.17"></script>
+        <script src="../../../public/js/cube_fabric.js"></script>   	
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="../../../public/css/widgets.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <title>
+           my deal 
+        </title>
+        <style>
+        .sub-menu-heading
+        {
+            overflow:hidden;
+        }
+        .sub-menu-heading:hover
+        {
+            color:#EF3F23;
+            font-size:5.5vw;
+            font-weight:bold;
+        }
+        .sub-menu-heading:hover ~ .menu-heading
+        {
+            color:#EF3F23;
+            font-size:5.5vw;
+            font-weight:bold;
+        }
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <!--box-container-->
+        <qb-bar qb-bar-type="menu" qb-bar-id="Mainpage" qb-open-class="display_block" qb-close-class="display_none">
+            <div class="box-container muli">
+            <div class="box-xxxl talign_c font-size_xxxxl box_padding_xl box_padding_t_b_xxxl box_padding_xxl bold_light">
+            <div class="box_3 position_l">
+                <div class="box_30-70 positon_l">
+                    <div class="menu-icon"> 
+                        <qb-icon qb-icon-type="search" qb-icon-id="Mainpage" qb-target-id="menu">
+                             <i class="fas fa-bars"></i>
+                        </qb-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="box_3 position_l talign_c">
+                Category
+            </div>
+            <div class="box_3 position_l">
+                <div class="box_30-70 position_r">
+                    <div class="menu-icon">
+                        <i class="far fa-bell"></i>
+                    </div>
+                </div>
+                <div class="box_30-70 position_r">
+                    <div class="menu-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--grid-container-->
+            <div class="box-xxxl box_padding_xxl box_padding_r_l_xxxl">
+                <!--grid-left-->
+                <div class="box-xl position_l">
+                    <div class="grid-left talign_c border_right_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                        <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_google_red">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_xxxl box_padding_t_b_xv3 font-size_xxxxl">
+                            Hotels
+                        </div>
+                    </div>
+                </div>
+                <!--grid-right-->
+                <div class="box-xl position_l">
+                    <div class="grid-right talign_c border_left_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                    <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_dark_blue">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_t_b_xv3 box_padding_xxxl font-size_xxxxl">
+                            Restraunts
+                        </div>
+                    </div>
+                </div>
+                 <!--grid-left-->
+                <div class="box-xl position_l">
+                    <div class="grid-left talign_c border_right_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                        <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_dark_red">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_xxxl box_padding_t_b_xv3 font-size_xxxxl">
+                            Cafe
+                        </div>
+                    </div>
+                </div>
+                <!--grid-right-->
+                <div class="box-xl position_l">
+                    <div class="grid-right talign_c border_left_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                    <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_brown">
+                            <i class="fas fa-shopping-basket"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_t_b_xv3 box_padding_xxxl font-size_xxxxl">
+                            Grocery Store
+                        </div>
+                    </div>
+                </div>
+                 <!--grid-left-->
+                <div class="box-xl position_l">
+                    <div class="grid-left talign_c border_right_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                        <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_creame">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_xxxl box_padding_t_b_xv3 font-size_xxxxl">
+                            Cloth Store
+                        </div>
+                    </div>
+                </div>
+                <!--grid-right-->
+                <div class="box-xl position_l">
+                    <div class="grid-right talign_c border_left_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                    <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_green">
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_t_b_xv3 box_padding_xxxl font-size_xxxxl">
+                            stationery Store
+                        </div>
+                    </div>
+                </div>
+                 <!--grid-left-->
+                <div class="box-xl position_l">
+                    <div class="grid-left talign_c border_right_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                        <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_light_red">
+                            <i class="fas fa-ice-cream"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_xxxl box_padding_t_b_xv3 font-size_xxxxl">
+                            Ice-cream
+                        </div>
+                    </div>
+                </div>
+                <!--grid-right-->
+                <div class="box-xl position_l">
+                    <div class="grid-right talign_c border_left_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                    <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4 font-color_facebook_blue">
+                            <i class="fas fa-couch"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_t_b_xv3 box_padding_xxxl font-size_xxxxl">
+                            Furniture Store
+                        </div>
+                    </div>
+                </div>
+                 <!--grid-left-->
+                <div class="box-xl position_l">
+                    <div class="grid-left talign_c border_right_gray_sh border_bottom_gray box_padding_t_b_xxl">
+                        <!--the icon-->
+                        <div class="box-xxxl box_padding_xv1 box_padding_t_b_xv1 font-size_xv4">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <!--name of icon-->
+                        <div class="box-xxxl box_padding_xxxl box_padding_t_b_xv3 font-size_xxxxl">
+                            Sports Shop
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </qb-bar>
+        <!--side menu-->
+        <qb-bar qb-bar-type="search" qb-bar-id="menu" qb-open-class="display_block" qb-close-class="display_none">
+            <div class="box-container">
+            <div class="box-xxxl position_relative border_right_red_s1_s5 border_left_red_s1_s5 muli">
+                <div class="close-button background-color_white box_padding_l font-size_gtxxxxl_3">
+                    <qb-icon qb-icon-type="back" qb-icon-id="menu" qb-target-id="Mainpage">
+                        <i class="fas fa-window-close"></i>
+                    </qb-icon>
+                </div>
+                <div class="box-xxxl">
+                    <!--profile-->
+                    <div class="box-xxxl border_bottom_s2_gray box_margin_xxxl box_margin_t_b_xl box_padding_xxl box_padding_t_b_xxl">
+                        <div class="box_30-70 position_l circle">
+                            <div class="box-xxxl box_padding_xv">
+                                <img src="SudhirSir.jpg" class="circle" width="100%">
+                            </div>
+                        </div>
+                        <div class="box_70-30 position_l">
+                            <div class="box-xxxl bold_light box_padding_t_b_xxxl box_padding_r_l_xxl font-size_gtxxxxl_3">
+                                Sudhir Naidu
+                            </div>
+                            <div class="box-xxxl font-color_gray box_padding_t_b_xl box_padding_r_l_xxl font-size_gtxxxxl_2">
+                                Special Customer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--menu-container-->
+                <div class="box-xxxl">
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3  no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Favorites  
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Profile
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Wallet
+                            </div>
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Refer and Earn
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Payment Request
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                History
+                            </div>
+                        </div>
+                    </div>
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3 no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Apps  
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Add your Buisness
+                            </div>
+                        </div>
+                    </div>
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3  no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Setting 
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Settings
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Logout
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </qb-bar>
+    </body>
+</html>

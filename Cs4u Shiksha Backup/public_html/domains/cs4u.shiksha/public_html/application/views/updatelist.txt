@@ -1,0 +1,1 @@
+we have to add an icon div in the accordion heading for opening and closing the content

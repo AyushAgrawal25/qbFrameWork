@@ -1,0 +1,97 @@
+.qbSwitchContainer {
+  text-align: center;
+  padding: 50px;
+}
+
+.qb_div_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  overflow: hidden;
+}
+
+.qb_div_2 {
+  width: -webkit-fill-available;
+}
+
+.qb_div_3 {
+  background-color: whitesmoke;
+  border-radius: 1000000000px;
+  padding: 9%;
+  width: auto;
+  overflow: hidden;
+}
+
+.qb_div_4 {
+  position: relative;
+  width: auto;
+  overflow: hidden;
+}
+
+.qb_div_4_input {
+  top: 0;
+  left: 0;
+  height: 21px;
+  width: 21px;
+  z-index: 1000;
+  opacity: 0;
+  position: absolute;
+}
+
+.qb_div_4_div_1 {
+  top: 0;
+  left: 0;
+  height: 21px;
+  width: 21px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.qb_div_4_div_2 {
+  top: 0;
+  left: 0;
+  height: 21px;
+  width: 21px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.qb-toggle-switch {
+  background-color: #dddcdc;
+}
+
+.qb-toggle-switch-on {
+  left: unset;
+  right: 0;
+}
+
+.qb-toggle-switch-off {
+  left: 0;
+  right: unset;
+}
+
+.qb-toggle-circle {
+  top: 0;
+  height: 21px;
+  width: 21px;
+  z-index: 1000;
+}
+
+.qb-toggle-circle-on {
+  left: unset;
+  right: 0;
+  background-color: #3deb3d;
+}
+
+.qb-toggle-circle-off {
+  left: 0;
+  right: unset;
+  background-color: #ff1e1e;
+}
+/*# sourceMappingURL=style.css.map */

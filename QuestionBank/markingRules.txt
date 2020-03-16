@@ -1,0 +1,10 @@
+NO Partial Marking:
+	Match Set to Set.
+
+Partial Marking:
+	Partial Mark for Each option.
+	If wrong option selected : neagitve marking.
+	If matches to correct set then Full marks.
+
+1 No Partial Marking
+2 Partial Marking only if correct options are selected. Negative marking will be done if wrong option had been selected by the user.

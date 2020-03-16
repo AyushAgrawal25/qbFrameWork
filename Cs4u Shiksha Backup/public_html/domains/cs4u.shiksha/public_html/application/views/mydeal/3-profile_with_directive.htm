@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="FRAMEWORK-basic.css">
+        <link rel="stylesheet" href="FRAMEWORK-styling.css">
+        <link rel="stylesheet" href="FRAMEWORK-font-styling.css">
+        <link rel="stylesheet" href="profile(basic).css">
+        <link rel="stylesheet" href="tab(basic).css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script data-require="angular.js@1.3.x" src="https://code.angularjs.org/1.3.17/angular.js" data-server="1.3.17"></script>
+        <script src="../../../public/js/cube_fabric.js"></script>   	
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="../../../public/css/widgets.css">
+    	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <title>
+           my deal 
+        </title>
+        <style>
+            
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <qb-bar qb-bar-type="menu" qb-bar-id="Mainpage" qb-open-class="display_block" qb-close-class="display_none">
+            <div class="box-container muli">
+            <!--top-menu-->
+            <div class="box-xxxl talign_c font-size_xxxxl box_padding_xl box_padding_t_b_xxxl box_padding_xxl bold_light display_block">
+                <div class="box_3 position_l">
+                    <div class="box_30-70 positon_l">
+                        <div class="menu-icon">
+                            <qb-icon qb-icon-type="search" qb-icon-id="Mainpage" qb-target-id="menu">
+                                <i class="fas fa-bars"></i>
+                            </qb-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_3 position_l talign_c">
+                    Profile
+                </div>
+                <div class="box_3 position_l">
+                    
+                </div>
+            </div>
+            <!--profile-container-->
+            <div class="box-xxxl box_padding_r_l_xv3 box_padding_t_b_xl">
+                <!--profile-picture-->
+                <div class="box_40-60 position_l">
+                    <div class="profile_pic box_padding_xxxl">
+                        <img src="courtyardmarriott.jpg" class="circle" width="100%">
+                    </div>
+                </div>
+                <!--details-->
+                <div class="box_60-40 position_l">
+                    <!--name-->
+                    <div class="box-xxxl box_padding_xl box_padding_t_b_xxxxl font-size_gtxxxxl_1 bold_light">
+                        Courtyard marriot
+                    </div>
+                    <!--type-->
+                    <div class="box-xxxl box_padding_xl box_padding_t_b_xxxxl font-size_gtxxxxl_2 font-color_gray">
+                        Hotel
+                    </div>
+                    <!--rating div-->
+                    <div class="box-xxxl box_padding_xl box_padding_t_b_xxxxl font-size_gtxxxxl_2 talign_c">
+                        <div class="box-xxl">
+                            <div class="box-xxxl">
+                                <!--star-1-->
+                                <div class="box_5 position_l">
+                                    <i class="fas fa-star font-color_green"></i>
+                                </div>
+                                <!--star-2-->
+                                <div class="box_5 position_l">
+                                    <i class="fas fa-star font-color_yellow"></i>
+                                </div>
+                                <!--star-3-->
+                                <div class="box_5 position_l">
+                                    <i class="fas fa-star font-color_blue"></i>
+                                </div>
+                                <!--star-4-->
+                                <div class="box_5 position_l">
+                                    <i class="fas fa-star font-color_violet"></i>
+                                </div>
+                                <!--star-5-->
+                                <div class="box_5 position_l">
+                                    <i class="fas fa-star font-color_brightred"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--tab-container-->
+            <div class="box-xxxl">
+                <!--tab-container-->
+                <qb-tabs classes="box-container,box_padding_r_l_xxxxl,box_padding_t_b_xv" qb-headings-style="allign:centre;total-width:100%;size:fullfill;">
+                    <qb-tab>
+                        <qb-tab-heading classes="box-l,position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_google_red">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                        </qb-tab-heading>
+                        <qb-tab-content classes="box-xxxl,box_padding_l">
+                            <div class="box-xxxl box_padding_l">
+                                <div class="box-xxxl box_padding_t_b_xl talign_c font-size_gtxv_2 bold_light">
+                                    Regular
+                                </div>
+                                <div class="box-xxxl">
+                                    <!--discount-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c arvo">
+                                        <strong>Flat 10% off</strong>
+                                    </div>
+                                    <!--button-->
+                                    <div class="box-xxxl talign_c">
+                                        <div class="box-xxxl">
+                                            <div class="box-xxxl round-corners_max talign_c font-color_white box_padding_xxxl background-color_mdealred font-size_ltxxxxl_2 bold_light box_padding_xxxl">
+                                                PAY AND GET CASHBACK
+                                            </div>
+                                        </div>                                    
+                                    </div>
+                                    <!--description-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Flat coupon
+                                    </div>
+                                    <!--note-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Note:<strong>Flat coupan</strong>
+                                    </div>
+                                </div> 
+                            </div>
+                        </qb-tab-content>
+                    </qb-tab>
+                    <qb-tab>
+                        <qb-tab-heading classes="box-l,position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_yellow_s1">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                        </qb-tab-heading>
+                        <qb-tab-content classes="box-xxxl,box_padding_l">
+                            <div class="box-xxxl box_padding_l">
+                                <div class="box-xxxl box_padding_t_b_xl talign_c font-size_gtxv_2 bold_light">
+                                    Special
+                                </div>
+                                <div class="box-xxxl">
+                                    <!--discount-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c arvo">
+                                        <strong>Flat 20% off</strong>
+                                    </div>
+                                    <!--button-->
+                                    <div class="box-xxxl talign_c">
+                                        <div class="box-xxxl">
+                                            <div class="box-xxxl round-corners_max talign_c font-color_white box_padding_xxxl background-color_mdealred font-size_ltxxxxl_2 bold_light box_padding_xxxl">
+                                                PAY AND GET CASHBACK
+                                            </div>
+                                        </div>                                    
+                                    </div>
+                                    <!--description-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Flat coupon
+                                    </div>
+                                    <!--note-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Note:<strong>Flat coupan</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </qb-tab-content>
+                    </qb-tab>
+                    <qb-tab>
+                        <qb-tab-heading classes="box-l,position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_facebook_blue">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                        </qb-tab-heading>
+                        <qb-tab-content classes="box-xxxl,box_padding_l">
+                            <div class="box-xxxl box_padding_l">
+                                <div class="box-xxxl box_padding_t_b_xl talign_c font-size_gtxv_2 bold_light">
+                                    Occupasional
+                                </div>
+                                <div class="box-xxxl">
+                                    <!--discount-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c arvo">
+                                        <strong>Flat 30% off</strong>
+                                    </div>
+                                    <!--button-->
+                                    <div class="box-xxxl talign_c">
+                                        <div class="box-xxxl">
+                                            <div class="box-xxxl round-corners_max talign_c font-color_white box_padding_xxxl background-color_mdealred font-size_ltxxxxl_2 bold_light box_padding_xxxl">
+                                                PAY AND GET CASHBACK
+                                            </div>
+                                        </div>                                    
+                                    </div>
+                                    <!--description-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Flat coupon
+                                    </div>
+                                    <!--note-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Note:<strong>Flat coupan</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </qb-tab-content>
+                    </qb-tab>
+                    <qb-tab>
+                        <qb-tab-heading classes="box-l,position_l">
+                            <div class="tab-heading box_padding_t_b_xv3 box_margin_xv3 talign_c font-size_ltxv_1 bold_light font-color_brown">
+                                <i class="fas fa-glass-martini-alt"></i>
+                            </div>
+                        </qb-tab-heading>
+                        <qb-tab-content classes="box-xxxl,box_padding_l">
+                            <div class="box-xxxl box_padding_l">
+                                <div class="box-xxxl box_padding_t_b_xl talign_c font-size_gtxv_2 bold_light">
+                                    Weekend
+                                </div>
+                                <div class="box-xxxl">
+                                    <!--discount-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c arvo">
+                                        <strong>Flat 40% off</strong>
+                                    </div>
+                                    <!--button-->
+                                    <div class="box-xxxl talign_c">
+                                        <div class="box-xxxl">
+                                            <div class="box-xxxl round-corners_max talign_c font-color_white box_padding_xxxl background-color_mdealred font-size_ltxxxxl_2 bold_light box_padding_xxxl">
+                                                PAY AND GET CASHBACK
+                                            </div>
+                                        </div>                                    
+                                    </div>
+                                    <!--description-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Flat coupon
+                                    </div>
+                                    <!--note-->
+                                    <div class="box-xxxl box_padding_l box_padding_t_b_xxxl font-size_gtxxxxl_2 talign_c">
+                                        Note:<strong>Flat coupan</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </qb-tab-content>
+                    </qb-tab>
+                </qb-tabs>
+            </div>
+        </div>
+        </qb-bar>
+        <!--side menu-->
+        <qb-bar qb-bar-type="search" qb-bar-id="menu" qb-open-class="display_block" qb-close-class="display_none">
+            <div class="box-container">
+            <div class="box-xxxl position_relative border_right_red_s1_s5 border_left_red_s1_s5 muli">
+                <div class="close-button background-color_white box_padding_l font-size_gtxxxxl_3">
+                    <qb-icon qb-icon-type="back" qb-icon-id="menu" qb-target-id="Mainpage">
+                        <i class="fas fa-window-close"></i>
+                    </qb-icon>
+                </div>
+                <div class="box-xxxl">
+                    <!--profile-->
+                    <div class="box-xxxl border_bottom_s2_gray box_margin_xxxl box_margin_t_b_xl box_padding_xxl box_padding_t_b_xxl">
+                        <div class="box_30-70 position_l circle">
+                            <div class="box-xxxl box_padding_xv">
+                                <img src="SudhirSir.jpg" class="circle" width="100%">
+                            </div>
+                        </div>
+                        <div class="box_70-30 position_l">
+                            <div class="box-xxxl bold_light box_padding_t_b_xxxl box_padding_r_l_xxl font-size_gtxxxxl_3">
+                                Sudhir Naidu
+                            </div>
+                            <div class="box-xxxl font-color_gray box_padding_t_b_xl box_padding_r_l_xxl font-size_gtxxxxl_2">
+                                Special Customer
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--menu-container-->
+                <div class="box-xxxl">
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3  no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Favorites  
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Profile
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Wallet
+                            </div>
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Refer and Earn
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Payment Request
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                History
+                            </div>
+                        </div>
+                    </div>
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3 no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Apps  
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Add your Buisness
+                            </div>
+                        </div>
+                    </div>
+                    <!--single menu-->
+                    <div class=" box-xxxl talign_c box_margin_r_l_xv3  no_padding_bottom box_margin_t_b_xl box_padding_t_b_xxxl">
+                        <!--heading-->
+                        <div class="menu-heading box-xxxl bold_light font-size_xxxxl box_padding_l border_bottom_gray">
+                            Setting 
+                        </div>
+                        <!--sub-menu-container-->
+                        <div class="box-xxxl box_padding_l">
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Settings
+                            </div>
+                            <!--sub-menu-->
+                            <div class="sub-menu-heading box-xxxl font-size_xxxxl box_padding_l">
+                                Logout
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </qb-bar>
+    </body>
+</html>

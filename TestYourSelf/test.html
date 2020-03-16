@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Untitled Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="fa/css/font-awesome.css" />
+        <script src="js/index.js"></script>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    </head>
+
+    <body ng-app="qbApp" ng-controller="qbCtrl">
+        <div class="main-container">
+            <!-----Section 2 Start----->
+            <div class="section2">
+                <div class="header2">
+                    <div class="onebythree">
+                        <label class="lang-toggle float-l">
+                            <input ng-change="qbChangeFun()" id="lang-select" type="checkbox" ng-model="qbTextLanguage"/>
+                            <span class="lang-slider"></span>
+                        </label>
+                    </div>
+                    <div class="onebythree center">
+                        <i class="fa fa-home" style="font-size:60px; color:#fff;"></i>
+                    </div>
+                    <div class="onebythree">
+                        <span class="wallet float-r text-shadow1">100 <i class="fa fa-rupee"></i></span>
+                    </div>
+                    <div class="onebytwo">
+                        <span class="float-l releted-exam text-shadow2">Test Name +1</span>
+                    </div>
+                    <div class="onebytwo">
+                        <span class="float-r">
+                            <!---->
+                            <div class="stars text-shadow2">
+                                <form action="">
+                                    <input class="star star-5" id="star-5-2" type="radio" name="star"/>
+                                    <label class="star star-5" for="star-5-2"></label>
+                                    <input class="star star-4" id="star-4-2" type="radio" name="star"/>
+                                    <label class="star star-4" for="star-4-2"></label>
+                                    <input class="star star-3" id="star-3-2" type="radio" name="star"/>
+                                    <label class="star star-3" for="star-3-2"></label>
+                                    <input class="star star-2" id="star-2-2" type="radio" name="star"/>
+                                    <label class="star star-2" for="star-2-2"></label>
+                                    <input class="star star-1" id="star-1-2" type="radio" name="star"/>
+                                    <label class="star star-1" for="star-1-2"></label>
+                                </form>
+                            </div>
+                            <!---->
+                        </span>
+                    </div>
+                    <div class="clr-fix"></div>
+                </div>            
+            </div>
+            <!-----Section 2 End----->
+            <!-----Section 3 Start--->
+            <div class="section3">
+                <div class="invisible1"></div>
+                <div class="qu-option">
+                    <div class="question" id="qb-question-box">Start Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Start Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Start Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Start Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Start Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="options" id="qb-options-box"></div>
+                </div>
+
+                <div class="invisible2"></div>
+            </div>
+            <!-----Section 3 End----->
+            <!-----Section 2 Start----->
+            <div class="section2" style="bottom:0;">
+                <div class="onebythree">
+                    <span class="button1 center" ng-click="qbBackFun()">Previous</span>
+                </div>
+                <div class="onebythree">
+                    <span class="button1 center" ng-click="qbNextFun()">Next</span>
+                </div>
+                <div class="onebythree">
+                    <span class="button1 center" ng-click="qbSubmitFun()">Submit</span>
+                </div> 
+            </div>
+            <!-----Section 2 End----->
+        </div>
+    </body>
+</html>

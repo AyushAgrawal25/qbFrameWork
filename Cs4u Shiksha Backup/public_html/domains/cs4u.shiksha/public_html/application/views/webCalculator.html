@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap" rel="stylesheet">
+        <title> Web Calculator</title>
+        <link rel="stylesheet" href="webCalci.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    </head>
+    <body>
+        <div class="web-calci" ng-app="">
+           <input type="text" ng-model="name">
+           {{name}}
+        </div>
+        
+        <script>
+            var calciApp = angular.module('claciApp', []);
+            calciApp.controller('calciCtrl', function($scope) {
+                $scope.firstName= "John";
+                $scope.lastName= "Doe";
+            });
+        </script>
+    </body>
+</html>
